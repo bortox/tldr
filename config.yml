@@ -28,7 +28,7 @@ languages:
     languageName: ':nepal:'
     title: "TLDR पृष्ठहरू"
     weight: 2
-  no:
+  "no":
     languageName: ':norway:'
     title: TLDR-sider
     weight: 2
