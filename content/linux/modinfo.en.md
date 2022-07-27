@@ -1,0 +1,28 @@
+---
+author: ['Ayush Dwivedi', 'Lucas Gabriel Schneider']
+date: 1629110041
+title: "modinfo, TLDR Pages"
+description: "modinfo, Extract information about a Linux kernel module."
+categories: "linux"
+---
+> More information: <https://manned.org/modinfo>.
+
+- List all attributes of a kernel module:
+
+```bash
+modinfo kernel_module
+```
+
+- List the specified attribute only:
+
+```bash
+modinfo -F author|description|license|parm|filename kernel_module
+```
+List of changes to this documentation
+
+
+Author | Description | ISO 8601 Date | GitHub link
+------|-----|-----|-----
+[Lucas Gabriel Schneider](mailto:casdpa@gmail.com) | linux/[l-m]: add more information link (#6231) | 2021-08-16T12:34:01 | [41db1d238028](https://github.com/tldr-pages/tldr/commit/41db1d2380286234a89aaa2131d8e1d1c531b850)
+[Ayush Dwivedi](mailto:itsayushdwivedi@gmail.com) | modinfo: add page (#1585) | 2017-11-15T13:24:53 | [ced7343ea0bc](https://github.com/tldr-pages/tldr/commit/ced7343ea0bc6e248641a4c35e9a9740712e5b3b)
+

@@ -1,0 +1,42 @@
+---
+author: ['LukBukkit', 'marchersimon']
+date: 1626631245
+title: "git init, TLDR Pages"
+description: "git init, Erstelle eine neues lokales Git-Repository."
+categories: "common"
+---
+> Weitere Informationen: <https://git-scm.com/docs/git-init>.
+
+- Erstelle eine neues lokales Repository:
+
+```bash
+git init
+```
+
+- Erstelle eine neues Repository mit einem bestimmten Namen für den ersten Branch:
+
+```bash
+git init --initial-branch=branch_name
+```
+
+- Erstelle ein neues Repository, welches SHA256 für Objekt-Hashes verwendet (benötigt Git 2.29+):
+
+```bash
+git init --object-format=sha256
+```
+
+- Erstelle eine neues minimales Repository, welches sich für die Verwendung als Remote-Repository über SSH eignet:
+
+```bash
+git init --bare
+```
+Liste der Änderungen, die an dieser Dokumentation vorgenommen wurden.
+
+
+Autor | Beschreibung | ISO 8601 Datumsformat | Link zu GitHub
+------|-----|-----|-----
+[marchersimon](mailto:50295997+marchersimon@users.noreply.github.com) | 7za, 7zr, ansible-galaxy, convert, dd, exa, fuck, git-*, gpg, ls, mv: sync German page (#6226) | 2021-07-18T20:00:45 | [1dcdac60df90](https://github.com/tldr-pages/tldr/commit/1dcdac60df901488a051d3f2f2e4171a158be904)
+[marchersimon](mailto:50295997+marchersimon@users.noreply.github.com) | German pages: refresh outdated translations (#5839) | 2021-05-01T20:20:15 | [348fbed93786](https://github.com/tldr-pages/tldr/commit/348fbed937865e33794197c0838aa2939abd41bc)
+[marchersimon](mailto:50295997+marchersimon@users.noreply.github.com) | German pages: replace `Mehr Informationen` with `Weitere Informationen` (#5814) | 2021-04-24T13:09:56 | [0a15df6ce3d7](https://github.com/tldr-pages/tldr/commit/0a15df6ce3d790b71b8fa4ae2e8befe0ed0806c7)
+[LukBukkit](mailto:luk.bukkit@gmail.com) | git-init: add German translation | 2020-10-24T14:39:05 | [89855d398eb2](https://github.com/tldr-pages/tldr/commit/89855d398eb253ed3694e0c0e047c19cc49dbf0d)
+
