@@ -3,7 +3,7 @@ languageCode: en
 title: TLDR Pages
 paginate: 20
 theme: PaperMod
-copyright: "[\U0001F517 CC BY 4.0](https://creativecommons.org/licenses/by/4.0) \U0001F539 Website by [bortox](https://bortox.it/) \U0001F539 [support this website](https://bortox.it/contribuisci-cs-en)"
+copyright: "[\U0001F517 CC BY 4.0](https://creativecommons.org/licenses/by/4.0) \U0001F539 [support this website](https://bortox.it/contribuisci-cs-en)"
 
 outputs:
   home:
@@ -190,7 +190,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "TLDR Pages"
-    Content: Simplified and community-driven man pages
+    Content: "Simplified and community-driven man pages. Website by [bortox](https://bortox.it/en)."
 
   socialIcons:
   - name: github
