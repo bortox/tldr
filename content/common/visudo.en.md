@@ -1,11 +1,11 @@
 ---
-author: ['slash3b', 'Sailesh Shrestha', 'Balázs Úr', 'kai']
-date: 1656325060
+author: ['marchersimon', 'slash3b', 'Balázs Úr', 'Sailesh Shrestha', 'kai']
+date: 1658921926
 title: "visudo, TLDR Pages"
 description: "visudo, Safely edit the sudoers file."
 categories: "common"
 ---
-> More information: <https://www.sudo.ws/man/1.8.13/visudo.man.html>.
+> More information: <https://www.sudo.ws/docs/man/visudo.man>.
 
 - Edit the sudoers file:
 
@@ -35,6 +35,7 @@ List of changes to this documentation
 
 Author | Description | ISO 8601 Date | GitHub link
 ------|-----|-----|-----
+[marchersimon](mailto:50295997+marchersimon@users.noreply.github.com) | *: add/edit more information link (#8255) | 2022-07-27T13:38:46 | [df1c9855a704](https://github.com/tldr-pages/tldr/commit/df1c9855a704f1360748c4b7652f8bca1db3a6c7)
 [kai](mailto:gmdezreal@gmail.com) | visudo: add example (#8154) | 2022-06-27T12:17:40 | [6ae6a1bad285](https://github.com/tldr-pages/tldr/commit/6ae6a1bad2855d7f65c085ea964e4d9651fe74fc)
 [Sailesh Shrestha](mailto:34860977+werewolf-65@users.noreply.github.com) | sdcv, visudo: add link and --version example (#7207) | 2021-11-25T22:32:48 | [61c0ac06d84f](https://github.com/tldr-pages/tldr/commit/61c0ac06d84fa1984a72793c04ff5017df99c802)
 [Balázs Úr](mailto:balazs@urbalazs.hu) | multiple pages: remove superfluous white spaces (#2801) | 2019-02-24T16:47:41 | [ad3772d8cbd5](https://github.com/tldr-pages/tldr/commit/ad3772d8cbd5a61fecfb38ab13bdc7b104b4ecdf)

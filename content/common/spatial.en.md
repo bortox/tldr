@@ -1,10 +1,12 @@
 ---
-author: ['Andrea Della Corte', 'Andrea']
-date: 1511814615
+author: ['Andrea Della Corte', 'Andrea', 'marchersimon']
+date: 1658921926
 title: "spatial, TLDR Pages"
 description: "spatial, A set of commands for managing and developing SpatialOS projects."
 categories: "common"
 ---
+> More information: <https://ims.improbable.io/products/spatialos>.
+
 - Run this when you use a project for the first time:
 
 ```bash
@@ -57,6 +59,7 @@ List of changes to this documentation
 
 Author | Description | ISO 8601 Date | GitHub link
 ------|-----|-----|-----
+[marchersimon](mailto:50295997+marchersimon@users.noreply.github.com) | *: add/edit more information link (#8255) | 2022-07-27T13:38:46 | [df1c9855a704](https://github.com/tldr-pages/tldr/commit/df1c9855a704f1360748c4b7652f8bca1db3a6c7)
 [Andrea](mailto:andrea@dellacorte.me) | spatial: fix macOS command | 2017-11-27T21:30:15 | [e953129676fe](https://github.com/tldr-pages/tldr/commit/e953129676feb85c66907c12f31ecc3447328cb6)
 [Andrea](mailto:andrea@dellacorte.me) | spatial: add clean and build, address review comments | 2017-11-26T11:21:02 | [5902534b0ccc](https://github.com/tldr-pages/tldr/commit/5902534b0cccaa48c5d1a8dd6e42e1d7f16ea815)
 [Andrea Della Corte](mailto:andrea@dellacorte.me) | spatial: add page | 2017-11-24T15:07:30 | [3610a3204fda](https://github.com/tldr-pages/tldr/commit/3610a3204fdad2f6e3f5357bc6fe3d7102fe38a3)
