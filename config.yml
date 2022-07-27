@@ -1,0 +1,250 @@
+baseURL: 'https://tldr.bortox.it/'
+languageCode: en
+title: TLDR Pages
+paginate: 20
+theme: PaperMod
+copyright: "[\U0001F517 CC BY 4.0](https://creativecommons.org/licenses/by/4.0) \U0001F539 Website by [bortox](https://bortox.it/) \U0001F539 [support this website](https://bortox.it/contribuisci-cs-en)"
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
+
+languages:
+  it:
+    title: Pagine TLDR in Italiano
+    languageName: ':it:'
+    weight: 2
+  tr:
+    languageName: ':tr:'
+    title: TLDR sayfaları
+    weight: 3
+  id:
+    languageName: ':flag-id:'
+    title: Halaman TLDR
+    weight: 2
+  ne:
+    languageName: ':nepal:'
+    title: "TLDR पृष्ठहरू"
+    weight: 2
+  no:
+    languageName: ':norway:'
+    title: TLDR-sider
+    weight: 2
+  zh:
+    languageName: ':cn:'
+    title: TLDR页面
+    weight: 2
+  th:
+    languageName: ':thailand:'
+    weight: 3
+  de:
+    languageName: ':de:'
+    title: TLDR Seiten
+    weight: 2
+  es:
+    languageName: ':es:'
+    title: Páginas TLDR
+    weight: 2
+  uk:
+    languageName: ':ukraine:'
+    title: Сторінки TLDR
+    weight: 2
+  fa:
+    languageName: ':iran:'
+    languagedirection: rtl
+    title: صفحات TLDR
+    weight: 3
+  ro:
+    languageName: ':romania:'
+    title: Pagini TLDR
+    weight: 2
+  pt-pt:
+    languageName: ':portugal:'
+    title: Páginas TLDR
+    weight: 2
+  pt-br:
+    languageName: ':brazil:'
+    title: Páginas TLDR
+    weight: 2
+  ca:
+    title: Pàgines TLDR
+    weight: 2
+  nl:
+    languageName: ':netherlands:'
+    title: TLDR Pages
+    weight: 2
+  ja:
+    languageName: ':jp:'
+    title: TLDRページ。
+    weight: 2
+  ru:
+    languageName: ':ru:'
+    title: Страницы TLDR
+    weight: 2
+  sv:
+    title: TLDR-sidor
+    languageName: ':sweden:'
+    weight: 2
+  sh:
+    languageName: '[:croatia: :serbia: :montenegro: :bosnia_herzegovina:]'
+    weight: 2
+  uz:
+    languageName: ':uzbekistan:'
+    title: TLDR sahifalari
+    weight: 2
+  zh-tw:
+    languageName: ':taiwan:'
+    title: TLDR 頁面
+    weight: 2
+  bs:
+    languageName: ':bosnia_herzegovina:'
+    title: TLDR stranice
+    weight: 2
+  ko:
+    languageName: ':kr:'
+    title: TLDR 페이지
+    weight: 2
+  pl:
+    languageName: ':poland:'
+    title: Strony TLDR
+    weight: 2
+  da:
+    title: TLDR-sider
+    languageName: ':denmark:'
+    weight: 2
+  en:
+    languageName: ':us:'
+    weight: 1
+  fr:
+    languageName: ':fr:'
+    title: Les pages TLDR
+    weight: 2
+  ar:
+    title: صفحات TLDR
+    languagedirection: rtl
+    languageName: مدونتي
+    weight: 2
+  ta:
+    title: TLDR பக்கங்கள்
+    languageName: தமிழர்
+    weight: 2
+  hi:
+    title: TLDR पृष्ठ
+    languageName: हिन्दी
+    weight: 2
+  ml:
+    title: TLDR പേജുകൾ
+    languagedirection: rtl
+    languageName: മലയാളം
+    weight: 2
+  bn:
+    title: TLDR পেজ
+    languageName: বাংলা
+    languagedirection: rtl
+    weight: 2
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: TLDR Pages
+  description: "Simplified and community-driven man pages"
+  keywords: [TLDR,Page,Manpage,Linux,Android,Common,Windows,SunOS,MacOS]
+  author: Andrea Bortolotti
+  images: ["/static/tldr-logo.png"]
+  DateFormat: "2 January 2006"
+  defaultTheme: auto # dark, light
+  disableThemlangeToggle: false
+  displayFullLangName: true
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: true
+  hidemeta: false
+  hideSummary: false
+  showtoc: true
+  tocopen: true
+
+  assets:
+    disableHLJS: true # to disable highlight.js
+    disableFingerprinting: true
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon16x16.png"
+    favicon32x32: "/favicon32x32.png"
+    apple_touch_icon: "/apple-touch-icon.png"
+    safari_pinned_tab: "/safari_pinned_tab.svg"
+  # home-info mode
+  homeInfoParams:
+    Title: "TLDR Pages"
+    Content: Simplified and community-driven man pages
+
+  socialIcons:
+  - name: github
+    url: 'https://github.com/tldr-pages'
+  - name: gitter
+    url: 'https://gitter.im/tldr-pages/tldr'
+  - name: twitter
+    url: 'https://twitter.com/tldr_pages'
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "description", "categories"]
+menu:
+  main:
+    - identifier: categories
+      name: "[🔖]"
+      url: /categories/
+      weight: 20
+    - identifier: donation
+      name: "[☕]"
+      url: https://bortox.it/contribuisci-cs-en/
+      weight: 40
+    - identifier: about
+      name: "[ℹ️]"
+      url: https://tldr.bortox.it/about/
+      weight: 30
+    - identifier: search
+      name: "[🔎]"
+      url: /search/
+      weight: 10
+    - identifier: home
+      name: "[🏠]"
+      url: /
+      weight: 5
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: true
+
+markup:
+    highlight:
+        # anchorLineNos: true
+        codeFences: true
+        guessSyntax: true
+        lineNos: false
+        # noClasses: false
+        style: monokai
