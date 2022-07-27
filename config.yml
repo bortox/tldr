@@ -132,7 +132,7 @@ languages:
     weight: 2
   hi:
     title: TLDR पृष्ठ
-    languageName: हिन्दी
+    languageName: ":india:"
     weight: 2
   ml:
     title: TLDR പേജുകൾ
@@ -141,7 +141,7 @@ languages:
     weight: 2
   bn:
     title: TLDR পেজ
-    languageName: বাংলা
+    languageName: ":bangladesh:"
     languagedirection: rtl
     weight: 2
 enableRobotsTXT: true
