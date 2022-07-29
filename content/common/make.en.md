@@ -1,6 +1,6 @@
 ---
-author: ['sabour_f', 'Ruben Vereecken', 'Gregor Aisch', 'Agniva De Sarker', 'Richard Mörbitz', 'Miroslav Franc', 'Starbeamrainbowlabs']
-date: 1603909344
+author: ['Richard Mörbitz', 'Miroslav Franc', 'Adrien Thebo', 'sabour_f', 'Ruben Vereecken', 'Gregor Aisch', 'Starbeamrainbowlabs', 'Agniva De Sarker']
+date: 1659034674
 title: "make, TLDR Pages"
 description: "make, Task runner for targets described in Makefile."
 categories: "common"
@@ -45,6 +45,12 @@ make --directory directory
 make --always-make target
 ```
 
+- Override a variable defined in the Makefile:
+
+```bash
+make target variable=new_value
+```
+
 - Override variables defined in the Makefile by the environment:
 
 ```bash
@@ -55,6 +61,7 @@ List of changes to this documentation
 
 Author | Description | ISO 8601 Date | GitHub link
 ------|-----|-----|-----
+[Adrien Thebo](mailto:adrien@lagrange-automation.io) | make: add variable override example (#8249) | 2022-07-28T20:57:54 | [a81d36d37f9b](https://github.com/tldr-pages/tldr/commit/a81d36d37f9b7c6fd0f1f11ed8a27a84f02d989b)
 [Richard Mörbitz](mailto:richard.moerbitz@tu-dresden.de) | make: add more information link | 2020-10-28T19:22:24 | [649bc40b2c23](https://github.com/tldr-pages/tldr/commit/649bc40b2c231bbea4a3383d66fd9d90b76ffe17)
 [Richard Mörbitz](mailto:richard.moerbitz@tu-dresden.de) | make: add --environment-overrides example | 2020-10-28T19:22:24 | [ff24666e791b](https://github.com/tldr-pages/tldr/commit/ff24666e791bc6edce8368c41a101a2d83d0d237)
 [Miroslav Franc](mailto:miroslav.franc@nic.cz) | GNU Make does not support -J | 2018-09-04T07:41:28 | [fd6904fb19fd](https://github.com/tldr-pages/tldr/commit/fd6904fb19fd45cd340c0d4761f527915d67c2d8)
