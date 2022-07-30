@@ -1,11 +1,11 @@
 ---
-author: ['wizarot', 'Gear J', 'bl-ue', 'Ein Verne']
-date: 1633928905
+author: ['Gear J', 'bl-ue', 'Ein Verne', 'marchersimon', 'wizarot']
+date: 1659075216
 title: "lldb, TLDR Pages"
 description: "lldb, LLVM 低级调试器。"
 categories: "osx"
 ---
-> 更多信息：<https://lldb.llvm.org>.
+> 更多信息：<https://lldb.llvm.org/man/lldb.html>.
 
 - 调试可执行文件：
 
@@ -29,6 +29,7 @@ lldb -w -n 进程名
 
 作者 | 描述 | ISO 8601日期格式 | 链接到GitHub
 ------|-----|-----|-----
+[marchersimon](mailto:50295997+marchersimon@users.noreply.github.com) | Sync more information links with all translations (#8256) | 2022-07-29T08:13:36 | [1f610a952ea0](https://github.com/tldr-pages/tldr/commit/1f610a952ea0d53e0a1bdbd1246ef81f24db2f3f)
 [Gear J](mailto:12108619+gearj@users.noreply.github.com) | launchctl, lldb, locate, look: add more information link (#6893) | 2021-10-11T07:08:25 | [fcc03f1e6ff9](https://github.com/tldr-pages/tldr/commit/fcc03f1e6ff9776ca4433447e9859a3c1a42e539)
 [bl-ue](mailto:54780737+bl-ue@users.noreply.github.com) | Chinese pages: correct Chinese punctuation (#5240) | 2021-08-02T10:41:09 | [289e30dfb3d1](https://github.com/tldr-pages/tldr/commit/289e30dfb3d1d73bade9e3610e12bfc90e9270ae)
 [Ein Verne](mailto:einverne@gmail.com) | format translation: change colon | 2019-11-02T18:47:23 | [30c2bd4c7ca2](https://github.com/tldr-pages/tldr/commit/30c2bd4c7ca2385e09cc00f15ad651e195b82e65)

@@ -1,11 +1,13 @@
 ---
-author: ['KsRyY', 'bl-ue', 'Ein Verne']
-date: 1627893669
+author: ['KsRyY', 'bl-ue', 'marchersimon', 'Ein Verne']
+date: 1659075216
 title: "view, TLDR Pages"
 description: "view, `vim` 的只读版本。"
 categories: "common"
 ---
 > 等效于 `vim -R`.
+
+> 更多信息：<https://www.vim.org>.
 
 - 打开文件：
 
@@ -17,6 +19,7 @@ view file
 
 作者 | 描述 | ISO 8601日期格式 | 链接到GitHub
 ------|-----|-----|-----
+[marchersimon](mailto:50295997+marchersimon@users.noreply.github.com) | Sync more information links with all translations (#8256) | 2022-07-29T08:13:36 | [1f610a952ea0](https://github.com/tldr-pages/tldr/commit/1f610a952ea0d53e0a1bdbd1246ef81f24db2f3f)
 [bl-ue](mailto:54780737+bl-ue@users.noreply.github.com) | Chinese pages: correct Chinese punctuation (#5240) | 2021-08-02T10:41:09 | [289e30dfb3d1](https://github.com/tldr-pages/tldr/commit/289e30dfb3d1d73bade9e3610e12bfc90e9270ae)
 [Ein Verne](mailto:einverne@gmail.com) | format translation: change colon | 2019-11-02T18:47:23 | [30c2bd4c7ca2](https://github.com/tldr-pages/tldr/commit/30c2bd4c7ca2385e09cc00f15ad651e195b82e65)
 [Ein Verne](mailto:einverne@gmail.com) | format translation: change period | 2019-11-02T18:47:23 | [f0f2764de273](https://github.com/tldr-pages/tldr/commit/f0f2764de2737f4c7bc75feeec5499117dea6ed0)

@@ -1,11 +1,11 @@
 ---
-author: ['Marco Bonelli', 'Proscream']
-date: 1574435377
+author: ['Proscream', 'Marco Bonelli', 'marchersimon']
+date: 1659075216
 title: "chromium, TLDR Pages"
 description: "chromium, 구글에서 제공하는 오픈소스 웹 브라우저."
 categories: "common"
 ---
-> 더 많은 정보: <https://chromium.org>.
+> 더 많은 정보: <https://www.chromium.org/developers/how-tos/run-chromium-with-flags/>.
 
 - 파일 열기:
 
@@ -47,6 +47,7 @@ List of changes to this documentation
 
 Author | Description | ISO 8601 Date | GitHub link
 ------|-----|-----|-----
+[marchersimon](mailto:50295997+marchersimon@users.noreply.github.com) | Sync more information links with all translations (#8256) | 2022-07-29T08:13:36 | [1f610a952ea0](https://github.com/tldr-pages/tldr/commit/1f610a952ea0d53e0a1bdbd1246ef81f24db2f3f)
 [Marco Bonelli](mailto:mebeim@users.noreply.github.com) | multiple pages: fix whitespace in Korean pages (#3603) | 2019-11-22T16:09:37 | [503e5f030cad](https://github.com/tldr-pages/tldr/commit/503e5f030cada020dd32b7d2bef431e2e8b5b2d8)
 [Proscream](mailto:proscream@naver.com) | Multiple pages(chisel to chroot) : Add Korean Translation (#3586) | 2019-11-19T18:22:39 | [bfbe15c8e437](https://github.com/tldr-pages/tldr/commit/bfbe15c8e4378a26e43b9dfe6f4ce65e2222df02)
 

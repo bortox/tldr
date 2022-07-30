@@ -1,13 +1,13 @@
 ---
-author: ['محمد الصوالحي']
-date: 1646823518
+author: ['محمد الصوالحي', 'marchersimon']
+date: 1659075216
 title: "fastmod, TLDR Pages"
 description: "fastmod, أداة للاستبدال الجزئي للنصوص في قاعدة الأكواد لديك."
 categories: "common"
 ---
 > التعبيرات النمطية يعالجها قفص من بضاعة رست وهو regex.
 
-> لمزيد من العلومات: <https://github.com/facebookincubator/fastmod>.
+> لمزيد من التفاصيل: <https://github.com/facebookincubator/fastmod>.
 
 - استبدال بالتعبيرات النمطية في كل ملفات المسار الحالي وأبنائه في الملفات غير المُتجاهلة بـ .ignore أو .gitignore:
 
@@ -49,5 +49,6 @@ List of changes to this documentation
 
 Author | Description | ISO 8601 Date | GitHub link
 ------|-----|-----|-----
+[marchersimon](mailto:50295997+marchersimon@users.noreply.github.com) | Sync more information links with all translations (#8256) | 2022-07-29T08:13:36 | [1f610a952ea0](https://github.com/tldr-pages/tldr/commit/1f610a952ea0d53e0a1bdbd1246ef81f24db2f3f)
 [محمد الصوالحي](mailto:ms.2052001@gmail.com) | fastmod: add page (#7815) | 2022-03-09T11:58:38 | [37ab478d7988](https://github.com/tldr-pages/tldr/commit/37ab478d798855a43d0aea5f4e598825e30ec707)
 

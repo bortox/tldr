@@ -1,11 +1,11 @@
 ---
-author: ['あでり', 'marchersimon']
-date: 1633464614
+author: ['marchersimon', 'あでり']
+date: 1659075216
 title: "sed, TLDR Pages"
 description: "sed, スクリプトによるテキスト編集。"
 categories: "common"
 ---
-> 詳しくはこちら: <https://man.archlinux.org/man/sed.1>
+> 詳しくはこちら: <https://www.gnu.org/software/sed/manual/sed.html>
 
 - ファイルの各行で正規表現の最初の出現箇所を置換し、その結果を表示する:
 
@@ -59,6 +59,7 @@ List of changes to this documentation
 
 Author | Description | ISO 8601 Date | GitHub link
 ------|-----|-----|-----
+[marchersimon](mailto:50295997+marchersimon@users.noreply.github.com) | Sync more information links with all translations (#8256) | 2022-07-29T08:13:36 | [1f610a952ea0](https://github.com/tldr-pages/tldr/commit/1f610a952ea0d53e0a1bdbd1246ef81f24db2f3f)
 [marchersimon](mailto:50295997+marchersimon@users.noreply.github.com) | *: fix period in Japanese translation (#6812) | 2021-10-05T22:10:14 | [1a98d09a48cc](https://github.com/tldr-pages/tldr/commit/1a98d09a48ccebe878f44c0afe6f0f89e1ac3518)
 [あでり](mailto:61904065+shu-pf@users.noreply.github.com) | sed, dig, ps, echo, less, mysql, vim: add Japanese translation (#5916) | 2021-05-11T12:47:50 | [956110581b81](https://github.com/tldr-pages/tldr/commit/956110581b81e8b5813fc05fb72ddc1507b0f94d)
 

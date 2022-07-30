@@ -1,10 +1,12 @@
 ---
-author: ['wizarot', 'Marco Bonelli', 'bl-ue', 'Ein Verne']
-date: 1627893669
+author: ['Marco Bonelli', 'bl-ue', 'Ein Verne', 'marchersimon', 'wizarot']
+date: 1659075216
 title: "qlmanage, TLDR Pages"
 description: "qlmanage, QuickLook 服务器工具。"
 categories: "osx"
 ---
+> 更多信息：<https://ss64.com/osx/qlmanage.html>.
+
 - 快速显示一个或多个文件：
 
 ```bash
@@ -27,6 +29,7 @@ qlmanage -r
 
 作者 | 描述 | ISO 8601日期格式 | 链接到GitHub
 ------|-----|-----|-----
+[marchersimon](mailto:50295997+marchersimon@users.noreply.github.com) | Sync more information links with all translations (#8256) | 2022-07-29T08:13:36 | [1f610a952ea0](https://github.com/tldr-pages/tldr/commit/1f610a952ea0d53e0a1bdbd1246ef81f24db2f3f)
 [bl-ue](mailto:54780737+bl-ue@users.noreply.github.com) | Chinese pages: correct Chinese punctuation (#5240) | 2021-08-02T10:41:09 | [289e30dfb3d1](https://github.com/tldr-pages/tldr/commit/289e30dfb3d1d73bade9e3610e12bfc90e9270ae)
 [Ein Verne](mailto:einverne@gmail.com) | format translation: update | 2019-11-02T18:47:23 | [b33795f8ab11](https://github.com/tldr-pages/tldr/commit/b33795f8ab11d9b0b539e149d5f450af7a059b3a)
 [Marco Bonelli](mailto:mebeim@users.noreply.github.com) | qlmangle: fix typo (#3225) | 2019-08-06T13:08:09 | [50fe3706684f](https://github.com/tldr-pages/tldr/commit/50fe3706684faeacd9f1a7167ebadf7600add556)

@@ -1,11 +1,13 @@
 ---
-author: ['San Baby Francis']
-date: 1634263773
+author: ['marchersimon', 'San Baby Francis']
+date: 1659075216
 title: "snap, TLDR Pages"
 description: "snap, സ്നാപ്പ് സെൽഫ് കൺറ്റൈൻഡ് പാക്കേജുകൾ നിയന്ത്രിക്കുവാനുള്ള യൂട്ടിലിറ്റി."
 categories: "linux"
 ---
 > `apt` നോട് സാദൃശ്യമുള്ളത്.
+
+> കൂടുതൽ വിവരങ്ങൾ: <https://manned.org/snap>.
 
 - ഒരു പാക്കേജ് സെർച്ച് ചെയ്യുവാൻ:
 
@@ -59,5 +61,6 @@ List of changes to this documentation
 
 Author | Description | ISO 8601 Date | GitHub link
 ------|-----|-----|-----
+[marchersimon](mailto:50295997+marchersimon@users.noreply.github.com) | Sync more information links with all translations (#8256) | 2022-07-29T08:13:36 | [1f610a952ea0](https://github.com/tldr-pages/tldr/commit/1f610a952ea0d53e0a1bdbd1246ef81f24db2f3f)
 [San Baby Francis](mailto:san.baby.francis123@gmail.com) | snap: add Malayalam translation (#6967) | 2021-10-15T04:09:33 | [5f5826f8e9a0](https://github.com/tldr-pages/tldr/commit/5f5826f8e9a062accd46f22940c3d461170454ae)
 

@@ -1,13 +1,13 @@
 ---
-author: ['lch7167', 'Seth Falco', 'marchersimon', 'bl-ue']
-date: 1648358715
+author: ['bl-ue', 'marchersimon', 'Seth Falco', 'lch7167']
+date: 1659075216
 title: "crontab, TLDR Pages"
 description: "crontab, 현재 사용자의 시간 간격으로 cron작업이 실행되도록 스케줄."
 categories: "common"
 ---
 > 작업 정의 형식: "(분) (시) (날짜) (달) (요일) 실행 할 명령".
 
-> 더 많은 정보: <https://manned.org/crontab>.
+> 더 많은 정보: <https://crontab.guru/>.
 
 - 현재 사용자의 crontab파일 편집:
 
@@ -55,6 +55,7 @@ List of changes to this documentation
 
 Author | Description | ISO 8601 Date | GitHub link
 ------|-----|-----|-----
+[marchersimon](mailto:50295997+marchersimon@users.noreply.github.com) | Sync more information links with all translations (#8256) | 2022-07-29T08:13:36 | [1f610a952ea0](https://github.com/tldr-pages/tldr/commit/1f610a952ea0d53e0a1bdbd1246ef81f24db2f3f)
 [Seth Falco](mailto:seth@falco.fun) | *: normalize colons (#7913) | 2022-03-27T07:25:15 | [27ff55fc2eea](https://github.com/tldr-pages/tldr/commit/27ff55fc2eea445eb5216c3b1d934960539fc024)
 [marchersimon](mailto:marchersimon@zohomail.eu) | replace `man.archlinux.org` with `manned.org` | 2021-04-18T16:33:27 | [9abb079afb69](https://github.com/tldr-pages/tldr/commit/9abb079afb6972f3de61a30e1b3fb849ad4b68d9)
 [marchersimon](mailto:50295997+marchersimon@users.noreply.github.com) | Apply suggestions from code review Co-authored-by: Axel Navarro <navarroaxel@gmail.com> | 2021-04-18T16:33:27 | [b607ecb4d79c](https://github.com/tldr-pages/tldr/commit/b607ecb4d79c009f43e017a58d2b5b797fdaf3bd)
