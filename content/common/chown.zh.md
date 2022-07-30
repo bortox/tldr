@@ -1,0 +1,45 @@
+---
+author: ['Minghao Liu']
+date: 1658675487
+title: "chown"
+description: "chown, 修改用户和用户组对文件或目录的所有权。"
+categories: "common"
+---
+> 更多信息：<https://www.gnu.org/software/coreutils/chown>.
+
+- 修改文件或目录的所有者：
+
+```bash
+chown 用户} 路径/到/文件或目录
+```
+
+- 修改文件或目录的所有者及所属组：
+
+```bash
+chown 用户:用户组 路径/到/文件或目录
+```
+
+- 递归修改目录及其子目录和文件的所有者：
+
+```bash
+chown -R 用户 路径/到/目录
+```
+
+- 修改符号链接的所有者：
+
+```bash
+chown -h 用户 路径/到/符号链接
+```
+
+- 修改文件或目录的所有者与参考文件相同：
+
+```bash
+chown --reference=路径/到/参考文件 路径/到/文件或目录
+```
+对该文件所做的修改清单
+
+
+作者 | 描述 | ISO 8601日期格式 | 链接到GitHub
+------|-----|-----|-----
+[Minghao Liu](mailto:HugueLiu@users.noreply.github.com) | awk, chmod, chown: add Chinese translation (#8243) | 2022-07-24T17:11:27 | [d4edd1c122ee](https://github.com/tldr-pages/tldr/commit/d4edd1c122ee5843037ccb1cb50205bcd4ca7711)
+

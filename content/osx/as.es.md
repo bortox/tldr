@@ -1,0 +1,43 @@
+---
+author: ['Lucas Gabriel Schneider', 'Alberto García Sola', 'Kyle']
+date: 1629747204
+title: "as"
+description: "as, Ensamblador portable GNU."
+categories: "osx"
+---
+> Principalmente destinado a ensamblar la salida de `gcc` para ser utilizada por` ld`.
+
+> Más información: <https://www.unix.com/man-page/osx/1/as/>.
+
+- Ensambla un archivo, escribiendo la salida en `a.out`:
+
+```bash
+as archivo.s
+```
+
+- Ensambla la salida a un archivo especificado:
+
+```bash
+as archivo.s -o salida.o
+```
+
+- Genera resultados más rápido omitiendo los espacios en blanco y el preprocesamiento de comentarios. (Solo debe usarse para compiladores de confianza):
+
+```bash
+as -f archivo.s
+```
+
+- Incluye una ruta determinada a la lista de directorios para buscar archivos especificados en las directivas `.include`:
+
+```bash
+as -I ruta/al/directorio archivo.s
+```
+Lista de modificaciones realizadas en este archivo
+
+
+Autor | Descripción | Formato de fecha ISO 8601 | Enlace a GitHub
+------|-----|-----|-----
+[Kyle](mailto:76597257+Gitleptune@users.noreply.github.com) | a*, g*, i*, osx[a*-i*]: add more information links (#6342) | 2021-08-23T21:33:24 | [0590a21917dc](https://github.com/tldr-pages/tldr/commit/0590a21917dc981d3cc64b8094b1cffa9d0a3b78)
+[Lucas Gabriel Schneider](mailto:casdpa@gmail.com) | multiple pages: format technical tokens (#5119) Co-authored-by: bl-ue <54780737+bl-ue@users.noreply.github.com> Co-authored-by: [...] | 2021-01-31T18:05:18 | [a5fe31bc47ae](https://github.com/tldr-pages/tldr/commit/a5fe31bc47aece3efa5e66b52b3cf384f27d5d72)
+[Alberto García Sola](mailto:44441820+dawalberto@users.noreply.github.com) | afinfo, afplay, airport, apachectl, archey, as, asr: add Spanish translation (#4596) | 2020-10-12T23:00:27 | [6ffb27546e7a](https://github.com/tldr-pages/tldr/commit/6ffb27546e7a1ae721ea732aa42b9adc44453da2)
+
