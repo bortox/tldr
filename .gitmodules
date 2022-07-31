@@ -1,3 +1,6 @@
 [submodule "themes/PaperMod"]
 	path = themes/PaperMod
 	url = https://github.com/bortox/hugo-PaperMod
+[submodule "themes/papermod"]
+	path = themes/papermod
+	url = https://github.com/bortox/hugo-PaperMod
