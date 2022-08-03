@@ -1,6 +1,6 @@
 ---
-author: ['DreamPiggy', 'Al Berez', 'pxgamer', 'Miguel Mendes', 'Gurdit Singh Bedi', 'Seth Falco', 'Ruben Vereecken']
-date: 1629050349
+author: ['Ruben Vereecken', 'Al Berez', 'DreamPiggy', 'Seth Falco', 'Nicolas Hansse', 'pxgamer', 'Miguel Mendes', 'Gurdit Singh Bedi']
+date: 1659438792
 title: "aria2c"
 description: "aria2c, Fast download utility."
 categories: "common"
@@ -21,10 +21,10 @@ aria2c url
 aria2c --out=filename url
 ```
 
-- Download multiple files in parallel:
+- Download multiple (different) files in parallel:
 
 ```bash
-aria2c --force-sequential url_1 url_2
+aria2c --force-sequential false url_1 url_2
 ```
 
 - Download from multiple sources with each URI pointing to the same file:
@@ -61,6 +61,7 @@ List of changes to this documentation
 
 Author | Description | ISO 8601 Date | GitHub link
 ------|-----|-----|-----
+[Nicolas Hansse](mailto:nico.hansse@gmail.com) | aria2, aria2c: add French translation & page edit (#8253) | 2022-08-02T13:13:12 | [bff1487aa091](https://github.com/tldr-pages/tldr/commit/bff1487aa0917dc68f6e11bac981b2fa53a243bb)
 [Seth Falco](mailto:seth@falco.fun) | *: fix errors reported by languagetool (#6069) | 2021-08-15T19:59:09 | [3e4c519004a4](https://github.com/tldr-pages/tldr/commit/3e4c519004a471c861cdc609fd7239ee3355671c)
 [Gurdit Singh Bedi](mailto:gurditsbedi@gmail.com) | aria2c: add --force-sequential example and clarify default behavior (#5914) | 2021-05-11T16:46:41 | [9909eb3d14ec](https://github.com/tldr-pages/tldr/commit/9909eb3d14ec1a7b2fe93ebfb5bc344cc397d1c5)
 [Al Berez](mailto:a-b@users.noreply.github.com) | aria2c: how to specify destination filename (#4334) | 2020-09-13T17:26:37 | [383fd1c2b903](https://github.com/tldr-pages/tldr/commit/383fd1c2b90385dbf010b838bf6d68af3f62210c)
