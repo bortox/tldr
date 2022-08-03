@@ -48,7 +48,7 @@ Wie wäre es mit:
 
 ![Animiertes SVG des tldr-Clients, das den tar-Befehl anzeigt](/tldr-tar.svg)
 
-> Die TLDR-Seite zum tar-Befehl ist auch auf dieser Website zu finden [dieser Link](https://tldr.bortox.it/content/common/tar)
+> Die TLDR-Seite zum tar-Befehl ist auch auf dieser Website zu finden [dieser Link](https://tldr.bortox.it/common/tar)
 
 Dieses Repository ist genau das: eine ständig wachsende Sammlung von Beispielen
 für die gängigsten UNIX-, Linux-, macOS-, SunOS-, Android- und Windows-Kommandozeilen-Tools.

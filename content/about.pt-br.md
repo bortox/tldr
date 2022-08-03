@@ -46,7 +46,7 @@ Que tal:
 
 ![SVG animado do cliente tldr mostrando o comando tar](/tldr-tar.svg)
 
-> A página TLDR para o comando do alcatrão também pode ser encontrada neste site (este link)(https://tldr.bortox.it/content/common/tar)
+> A página TLDR para o comando do alcatrão também pode ser encontrada neste site (este link)(https://tldr.bortox.it/common/tar)
 
 Este repositório é exatamente isso: uma coleção de exemplos em constante crescimento.
 para as ferramentas mais comuns de linha de comando UNIX, Linux, MacOS, SunOS, Android e Windows.

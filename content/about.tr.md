@@ -46,7 +46,7 @@ Ne dersin?
 
 ![tar komutunu gösteren tldr istemcisinin animasyonlu SVG'si](/tldr-tar.svg)
 
-> tar komutu için TLDR sayfası da bu web sitesinde bulunabilir [bu bağlantı](https://tldr.bortox.it/content/common/tar)
+> tar komutu için TLDR sayfası da bu web sitesinde bulunabilir [bu bağlantı](https://tldr.bortox.it/common/tar)
 
 Bu depo tam olarak şudur: sürekli büyüyen bir örnek koleksiyonu.
 En yaygın UNIX, Linux, macOS, SunOS, Android ve Windows komut satırı araçları için.

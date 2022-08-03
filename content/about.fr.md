@@ -46,7 +46,7 @@ Pourquoi pas :
 
 ![SVG animé du client tldr montrant la commande tar](/tldr-tar.svg)
 
-> La page TLDR de la commande tar se trouve également sur ce site web [ce lien](https://tldr.bortox.it/content/common/tar)
+> La page TLDR de la commande tar se trouve également sur ce site web [ce lien](https://tldr.bortox.it/common/tar)
 
 Ce référentiel n'est rien d'autre qu'une collection d'exemples en constante évolution.
 pour les outils de ligne de commande les plus courants d'UNIX, Linux, macOS, SunOS, Android et Windows.

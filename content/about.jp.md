@@ -46,7 +46,7 @@ tldr-pages**プロジェクトは、共同で管理されているヘルプペ�
 
 ![tarコマンドを表示するtldrクライアントのアニメーションSVG](/tldr-tar.svg)
 
-> tarコマンドのTLDRページは、こちらのサイトでもご覧いただけます。[このリンク](https://tldr.bortox.it/content/common/tar)
+> tarコマンドのTLDRページは、こちらのサイトでもご覧いただけます。[このリンク](https://tldr.bortox.it/common/tar)
 
 このリポジトリは、まさに「常に増え続けるサンプルのコレクション」です。
 UNIX、Linux、macOS、SunOS、Android、Windowsのコマンドラインツールのうち、最も一般的なものを対象としています。

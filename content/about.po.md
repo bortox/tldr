@@ -46,7 +46,7 @@ Jak o:
 
 ![animowany SVG klienta tldr pokazujący polecenie tar](/tldr-tar.svg)
 
-> Stronę TLDR dla polecenia tar można również znaleźć na tej stronie [ten link](https://tldr.bortox.it/content/common/tar)
+> Stronę TLDR dla polecenia tar można również znaleźć na tej stronie [ten link](https://tldr.bortox.it/common/tar)
 
 To repozytorium jest właśnie tym: stale rosnącą kolekcją przykładów.
 dla najczęściej używanych narzędzi wiersza poleceń UNIX, Linux, macOS, SunOS, Android i Windows.

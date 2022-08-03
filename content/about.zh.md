@@ -46,7 +46,7 @@ description: "什么是 TLDR Pages? 如何贡献？这个网站是什么？"
 
 ![显示tar命令的tldr客户端的SVG动画](/tldr-tar.svg)
 
-> tar命令的TLDR页面也可以在这个网站上找到 [此链接](https://tldr.bortox.it/content/common/tar)
+> tar命令的TLDR页面也可以在这个网站上找到 [此链接](https://tldr.bortox.it/common/tar)
 
 这个资源库就是这样：一个不断增长的例子集合。
 用于最常见的UNIX、Linux、macOS、SunOS、Android和Windows命令行工具。

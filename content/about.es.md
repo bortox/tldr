@@ -46,7 +46,7 @@ Que tal:
 
 ![SVG animado del cliente tldr mostrando el comando tar](/tldr-tar.svg)
 
-> La página TLDR para el comando tar también se puede encontrar en este sitio web [este enlace](https://tldr.bortox.it/content/common/tar)
+> La página TLDR para el comando tar también se puede encontrar en este sitio web [este enlace](https://tldr.bortox.it/common/tar)
 
 Este repositorio es precisamente eso: una colección de ejemplos en constante crecimiento.
 para las herramientas de línea de comandos más comunes de UNIX, Linux, macOS, SunOS, Android y Windows.

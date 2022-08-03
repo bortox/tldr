@@ -46,7 +46,7 @@ Vad sägs om:
 
 ![animerad SVG av tldr-klienten som visar tar-kommandot](/tldr-tar.svg)
 
-> TLDR-sidan för tar-kommandot finns också på denna webbplats. [denna länk](https://tldr.bortox.it/content/common/tar)
+> TLDR-sidan för tar-kommandot finns också på denna webbplats. [denna länk](https://tldr.bortox.it/common/tar)
 
 Det här arkivet är just det: en ständigt växande samling exempel.
 för de vanligaste UNIX-, Linux-, macOS-, SunOS-, Android- och Windows-kommandoradsverktygen.

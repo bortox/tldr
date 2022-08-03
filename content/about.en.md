@@ -21,6 +21,8 @@ description: "What is TLDR Pages? How to contribute? What is this website?"
 [license-image]: https://img.shields.io/badge/license-CC_BY_4.0-blue.svg
 </div>
 
+This is a mix of TLDR Pages' Documentation and of information about this website.
+
 ## What is tldr-pages?
 
 The **tldr-pages** project is a collection of community-maintained help pages
@@ -43,7 +45,7 @@ How about:
 
 ![Animated SVG of the tldr client displaying the tar command.](/tldr-tar.svg)
 
-> The tar command TLDR Page is also available in this website at [this link](https://tldr.bortox.it/content/common/tar)
+> The tar command TLDR Page is also available in this website at [this link](https://tldr.bortox.it/common/tar)
 
 This repository is just that: an ever-growing collection of examples
 for the most common UNIX, Linux, macOS, SunOS, Android and Windows command-line tools.
@@ -112,7 +114,7 @@ If you want an offline version without installing any software,
 check out the [PDF version](https://tldr.sh/assets/tldr-book.pdf).
 
 For browsing without installing a client to your computer,
-see the web client at <https://tldr.ostera.io>.
+see the web client at <https://tldr.ostera.io> or at my website, tldr.bortox.it
 
 There are also **various other clients** provided by the community,
 both for the command-line and for other platforms.
