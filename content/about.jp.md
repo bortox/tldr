@@ -46,7 +46,7 @@ tldr-pages**プロジェクトは、共同で管理されているヘルプペ�
 
 ![tarコマンドを表示するtldrクライアントのアニメーションSVG](/tldr-tar.svg)
 
-> tarコマンドのTLDRページは、こちらのサイトでもご覧いただけます。[このリンク]("https://tldr.bortox.it/content/common/tar")
+> tarコマンドのTLDRページは、こちらのサイトでもご覧いただけます。[このリンク](https://tldr.bortox.it/content/common/tar)
 
 このリポジトリは、まさに「常に増え続けるサンプルのコレクション」です。
 UNIX、Linux、macOS、SunOS、Android、Windowsのコマンドラインツールのうち、最も一般的なものを対象としています。
@@ -132,8 +132,8 @@ PDF版](https://tldr.sh/assets/tldr-book.pdf)をご覧ください。
 を使用して、コマンドラインから、あるいは
 をGitHubのウェブインタフェースで表示します。
 
-私たちは、[歓迎と協力](GOVERNANCE.md)のコミュニティを維持することに努めます。
-初めて投稿される方は、[投稿ガイドライン](CONTRIBUTING.md)をご覧になり、ぜひ始めてみてください。
+私たちは、[歓迎と協力](https://github.com/tldr-pages/tldr/blob/main/GOVERNANCE.md)のコミュニティを維持することに努めます。
+初めて投稿される方は、[投稿ガイドライン](https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md)をご覧になり、ぜひ始めてみてください。
 
 翻訳にご協力いただける方は、<https://lukwebsforge.github.io/tldri18n/>までご連絡ください。
 をクリックすると、すべての翻訳の全体的な進捗状況を確認でき、どの翻訳が不足しているか、または古くなっているかを知ることができます。

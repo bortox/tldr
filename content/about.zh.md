@@ -46,7 +46,7 @@ description: "什么是 TLDR Pages? 如何贡献？这个网站是什么？"
 
 ![显示tar命令的tldr客户端的SVG动画](/tldr-tar.svg)
 
-> tar命令的TLDR页面也可以在这个网站上找到 [此链接]("https://tldr.bortox.it/content/common/tar")
+> tar命令的TLDR页面也可以在这个网站上找到 [此链接](https://tldr.bortox.it/content/common/tar)
 
 这个资源库就是这样：一个不断增长的例子集合。
 用于最常见的UNIX、Linux、macOS、SunOS、Android和Windows命令行工具。
@@ -132,8 +132,8 @@ pip3 安装 tldr
 を使用して、コマンドラインから、あるいは
 をGitHubのウェブインタフェースで表示します。
 
-私たちは、[歓迎と協力](GOVERNANCE.md)のコミュニティを維持することに努めます。
-初めて投稿される方は、[投稿ガイドライン](CONTRIBUTING.md)をご覧になり、ぜひ始めてみてください。
+私たちは、[歓迎と協力](https://github.com/tldr-pages/tldr/blob/main/GOVERNANCE.md)のコミュニティを維持することに努めます。
+初めて投稿される方は、[投稿ガイドライン](https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md)をご覧になり、ぜひ始めてみてください。
 
 翻訳にご協力いただける方は、<https://lukwebsforge.github.io/tldri18n/>までご連絡ください。
 をクリックすると、すべての翻訳の全体的な進捗状況を確認でき、どの翻訳が不足しているか、または古くなっているかを知ることができます。

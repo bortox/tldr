@@ -46,7 +46,7 @@ Jak o:
 
 ![animowany SVG klienta tldr pokazujący polecenie tar](/tldr-tar.svg)
 
-> Stronę TLDR dla polecenia tar można również znaleźć na tej stronie [ten link]("https://tldr.bortox.it/content/common/tar")
+> Stronę TLDR dla polecenia tar można również znaleźć na tej stronie [ten link](https://tldr.bortox.it/content/common/tar)
 
 To repozytorium jest właśnie tym: stale rosnącą kolekcją przykładów.
 dla najczęściej używanych narzędzi wiersza poleceń UNIX, Linux, macOS, SunOS, Android i Windows.
@@ -132,8 +132,8 @@ Wszystkie strony `tldr` są napisane w Markdown, więc mogą być edytowane doś
 z Gitem w linii poleceń lub poprzez
 poprzez interfejs internetowy GitHub.
 
-Dążymy do utrzymania [przyjaznej i współpracującej](GOVERNANCE.md) społeczności.
-Jeśli jesteś osobą, która po raz pierwszy wnosi swój wkład, zapoznaj się z [Zasadami wnoszenia wkładów](CONTRIBUTING.md) i zacznij działać!
+Dążymy do utrzymania [przyjaznej i współpracującej](https://github.com/tldr-pages/tldr/blob/main/GOVERNANCE.md) społeczności.
+Jeśli jesteś osobą, która po raz pierwszy wnosi swój wkład, zapoznaj się z [Zasadami wnoszenia wkładów](https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md) i zacznij działać!
 
 Jeśli chciałbyś przyczynić się do tłumaczenia, możesz <https://lukwebsforge.github.io/tldri18n/>.
 aby zobaczyć ogólny postęp wszystkich tłumaczeń i dowiedzieć się, których tłumaczeń brakuje lub są nieaktualne.

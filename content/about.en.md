@@ -43,7 +43,7 @@ How about:
 
 ![Animated SVG of the tldr client displaying the tar command.](/tldr-tar.svg)
 
-> The tar command TLDR Page is also available in this website at [this link]("https://tldr.bortox.it/content/common/tar")
+> The tar command TLDR Page is also available in this website at [this link](https://tldr.bortox.it/content/common/tar)
 
 This repository is just that: an ever-growing collection of examples
 for the most common UNIX, Linux, macOS, SunOS, Android and Windows command-line tools.
@@ -106,6 +106,8 @@ pip3 install tldr
 Then you have direct access to simplified, easy-to-read help for commands, such as `tar`,
 accessible through typing `tldr tar` instead of the standard `man tar`.
 
+---
+
 If you want an offline version without installing any software,
 check out the [PDF version](https://tldr.sh/assets/tldr-book.pdf).
 
@@ -115,6 +117,8 @@ see the web client at <https://tldr.ostera.io>.
 There are also **various other clients** provided by the community,
 both for the command-line and for other platforms.
 For a comprehensive list of clients, head over to our [Wiki](https://github.com/tldr-pages/tldr/wiki/tldr-pages-clients).
+
+I recommend [**tealdeer**](https://dbrgn.github.io/tealdeer/). Tealdeer is written in Rust and makes use of a local cache, so the results are almost instant, instead with the Node/Python client there is always to wait a couple of seconds.
 
 ## How do I contribute to tldr-pages?
 
@@ -131,8 +135,8 @@ All `tldr` pages are written in markdown, so they can be edited quite easily and
 pull requests here using Git on the command-line or
 using the GitHub web interface.
 
-We strive to maintain a [welcoming and collaborative](GOVERNANCE.md) community.
-If it's your first time contributing, have a look at the [contributing guidelines](CONTRIBUTING.md), and go ahead!
+We strive to maintain a [welcoming and collaborative](https://github.com/tldr-pages/tldr/blob/main/GOVERNANCE.md) community.
+If it's your first time contributing, have a look at the [contributing guidelines](https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md), and go ahead!
 
 If you'd like to contribute to translations, you can visit <https://lukwebsforge.github.io/tldri18n/>
 to see the overall progress of all translations, and which translations are missing or outdated.

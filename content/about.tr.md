@@ -46,7 +46,7 @@ Ne dersin?
 
 ![tar komutunu gösteren tldr istemcisinin animasyonlu SVG'si](/tldr-tar.svg)
 
-> tar komutu için TLDR sayfası da bu web sitesinde bulunabilir [bu bağlantı]("https://tldr.bortox.it/content/common/tar")
+> tar komutu için TLDR sayfası da bu web sitesinde bulunabilir [bu bağlantı](https://tldr.bortox.it/content/common/tar)
 
 Bu depo tam olarak şudur: sürekli büyüyen bir örnek koleksiyonu.
 En yaygın UNIX, Linux, macOS, SunOS, Android ve Windows komut satırı araçları için.
@@ -133,7 +133,7 @@ Git ile komut satırında veya
 GitHub web arayüzü üzerinden.
 
 Misafirperver ve işbirlikçi](YÖNETİŞİM.md) bir topluluğu sürdürmeye çalışıyoruz.
-İlk kez katkıda bulunacaksanız, [Katkı Yönergeleri]'ne (CONTRIBUTING.md) bir göz atın ve başlayın!
+İlk kez katkıda bulunacaksanız, [Katkı Yönergeleri]'ne (https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md) bir göz atın ve başlayın!
 
 Çevirilere katkıda bulunmak isterseniz, <https://lukwebsforge.github.io/tldri18n/>
 tüm çevirilerin genel ilerlemesini görmek ve hangi çevirilerin eksik veya güncel olmadığını öğrenmek için.

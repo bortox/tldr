@@ -48,7 +48,7 @@ Wie wäre es mit:
 
 ![Animiertes SVG des tldr-Clients, das den tar-Befehl anzeigt](/tldr-tar.svg)
 
-> Die TLDR-Seite zum tar-Befehl ist auch auf dieser Website zu finden [dieser Link]("https://tldr.bortox.it/content/common/tar")
+> Die TLDR-Seite zum tar-Befehl ist auch auf dieser Website zu finden [dieser Link](https://tldr.bortox.it/content/common/tar)
 
 Dieses Repository ist genau das: eine ständig wachsende Sammlung von Beispielen
 für die gängigsten UNIX-, Linux-, macOS-, SunOS-, Android- und Windows-Kommandozeilen-Tools.
@@ -133,8 +133,8 @@ Alle `tldr` Seiten sind in Markdown geschrieben, so dass sie recht einfach bearb
 mit Git auf der Kommandozeile oder über die
 über die GitHub-Weboberfläche eingereicht werden.
 
-Wir bemühen uns, eine [einladende und kollaborative](GOVERNANCE.md) Gemeinschaft zu pflegen.
-Wenn Sie zum ersten Mal einen Beitrag leisten, werfen Sie einen Blick auf die [Beitragsrichtlinien](CONTRIBUTING.md), und legen Sie los!
+Wir bemühen uns, eine [einladende und kollaborative](https://github.com/tldr-pages/tldr/blob/main/GOVERNANCE.md) Gemeinschaft zu pflegen.
+Wenn Sie zum ersten Mal einen Beitrag leisten, werfen Sie einen Blick auf die [Beitragsrichtlinien](https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md), und legen Sie los!
 
 Wenn Sie zu Übersetzungen beitragen möchten, können Sie <https://lukwebsforge.github.io/tldri18n/>
 besuchen, um den Gesamtfortschritt aller Übersetzungen zu sehen und zu erfahren, welche Übersetzungen fehlen oder veraltet sind.

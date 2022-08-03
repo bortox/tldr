@@ -46,7 +46,7 @@ Vad sägs om:
 
 ![animerad SVG av tldr-klienten som visar tar-kommandot](/tldr-tar.svg)
 
-> TLDR-sidan för tar-kommandot finns också på denna webbplats. [denna länk]("https://tldr.bortox.it/content/common/tar")
+> TLDR-sidan för tar-kommandot finns också på denna webbplats. [denna länk](https://tldr.bortox.it/content/common/tar)
 
 Det här arkivet är just det: en ständigt växande samling exempel.
 för de vanligaste UNIX-, Linux-, macOS-, SunOS-, Android- och Windows-kommandoradsverktygen.
@@ -132,8 +132,8 @@ Alla `tldr`-sidor är skrivna i Markdown, så de kan redigeras ganska enkelt och
 med Git på kommandoraden eller via
 via GitHubs webbgränssnitt.
 
-Vi strävar efter att upprätthålla en [välkomnande och samarbetsvillig](GOVERNANCE.md) gemenskap.
-Om det är första gången du bidrar, ta en titt på [Riktlinjer för bidrag](CONTRIBUTING.md) och kom igång!
+Vi strävar efter att upprätthålla en [välkomnande och samarbetsvillig](https://github.com/tldr-pages/tldr/blob/main/GOVERNANCE.md) gemenskap.
+Om det är första gången du bidrar, ta en titt på [Riktlinjer för bidrag](https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md) och kom igång!
 
 Om du vill bidra till översättningar kan du <https://lukwebsforge.github.io/tldri18n/>
 för att se hur det går med alla översättningar och få reda på vilka översättningar som saknas eller är föråldrade.

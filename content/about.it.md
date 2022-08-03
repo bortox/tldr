@@ -137,8 +137,8 @@ Tutte le pagine di `tldr` sono scritte in Markdown, quindi possono essere modifi
 con Git alla riga di comando o tramite il file
 tramite l'interfaccia web di GitHub.
 
-Ci sforziamo di mantenere una comunità [accogliente e collaborativa](GOVERNANCE.md).
-Se è la prima volta che contribuisci, dai un'occhiata alle [Linee guida per i contributi](CONTRIBUTING.md) e inizia!
+Ci sforziamo di mantenere una comunità [accogliente e collaborativa](https://github.com/tldr-pages/tldr/blob/main/GOVERNANCE.md).
+Se è la prima volta che contribuisci, dai un'occhiata alle [Linee guida per i contributi](https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md) e inizia!
 
 Se volete contribuire alle traduzioni, potete <https://lukwebsforge.github.io/tldri18n/>
 per vedere lo stato di avanzamento generale di tutte le traduzioni e sapere quali traduzioni mancano o sono obsolete.

@@ -46,7 +46,7 @@ Que tal:
 
 ![SVG animado del cliente tldr mostrando el comando tar](/tldr-tar.svg)
 
-> La página TLDR para el comando tar también se puede encontrar en este sitio web [este enlace]("https://tldr.bortox.it/content/common/tar")
+> La página TLDR para el comando tar también se puede encontrar en este sitio web [este enlace](https://tldr.bortox.it/content/common/tar)
 
 Este repositorio es precisamente eso: una colección de ejemplos en constante crecimiento.
 para las herramientas de línea de comandos más comunes de UNIX, Linux, macOS, SunOS, Android y Windows.
@@ -132,8 +132,8 @@ Todas las páginas de `tldr` están escritas en Markdown, por lo que se pueden e
 con Git en la línea de comandos o a través del
 a través de la interfaz web de GitHub.
 
-Nos esforzamos por mantener una comunidad [acogedora y colaboradora](GOVERNANCE.md).
-Si es la primera vez que contribuyes, echa un vistazo a las [Directrices de contribución](CONTRIBUTING.md), ¡y empieza!
+Nos esforzamos por mantener una comunidad [acogedora y colaboradora](https://github.com/tldr-pages/tldr/blob/main/GOVERNANCE.md).
+Si es la primera vez que contribuyes, echa un vistazo a las [Directrices de contribución](https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md), ¡y empieza!
 
 Si quieres contribuir a las traducciones, puedes <https://lukwebsforge.github.io/tldri18n/>
 para ver el progreso general de todas las traducciones y saber qué traducciones faltan o están obsoletas.
