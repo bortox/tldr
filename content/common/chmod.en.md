@@ -1,6 +1,6 @@
 ---
-author: ['Waldir Pimenta', 'Dario Vladović', 'Brian Blaylock', 'Agniva De Sarker', 'Eric Nielsen', 'Matthew Thompson', 'Jacob Roeland', 'lord63', 'Marco Bonelli', 'Ruben Vereecken', 'siavashsoleymani', 'Patrice Denis', 'marchersimon']
-date: 1630701808
+author: ['Patrice Denis', 'Dario Vladović', 'siavashsoleymani', 'lord63', 'Jacob Roeland', 'Eric Nielsen', 'Brian Blaylock', 'Emily Grace Seville', 'Ruben Vereecken', 'Agniva De Sarker', 'Waldir Pimenta', 'marchersimon', 'Matthew Thompson', 'Marco Bonelli']
+date: 1659755519
 title: "chmod"
 description: "chmod, Change the access permissions of a file or directory."
 categories: "common"
@@ -10,55 +10,56 @@ categories: "common"
 - Give the [u]ser who owns a file the right to e[x]ecute it:
 
 ```bash
-chmod u+x file
+chmod u+x path/to/file
 ```
 
 - Give the [u]ser rights to [r]ead and [w]rite to a file/directory:
 
 ```bash
-chmod u+rw file_or_directory
+chmod u+rw path/to/file_or_directory
 ```
 
 - Remove e[x]ecutable rights from the [g]roup:
 
 ```bash
-chmod g-x file
+chmod g-x path/to/file
 ```
 
 - Give [a]ll users rights to [r]ead and e[x]ecute:
 
 ```bash
-chmod a+rx file
+chmod a+rx path/to/file
 ```
 
 - Give [o]thers (not in the file owner's group) the same rights as the [g]roup:
 
 ```bash
-chmod o=g file
+chmod o=g path/to/file
 ```
 
 - Remove all rights from [o]thers:
 
 ```bash
-chmod o= file
+chmod o= path/to/file
 ```
 
 - Change permissions recursively giving [g]roup and [o]thers the ability to [w]rite:
 
 ```bash
-chmod -R g+w,o+w directory
+chmod -R g+w,o+w path/to/directory
 ```
 
 - Recursively give [a]ll users [r]ead permissions to files and e[X]ecute permissions to sub-directories within a directory:
 
 ```bash
-chmod -R a+rX directory
+chmod -R a+rX path/to/directory
 ```
 List of changes to this documentation
 
 
 Author | Description | ISO 8601 Date | GitHub link
 ------|-----|-----|-----
+[Emily Grace Seville](mailto:emilyseville7cf@gmail.com) | chmod: update placeholders in examples (#8300) | 2022-08-06T05:11:59 | [4abe09f8b3c8](https://github.com/tldr-pages/tldr/commit/4abe09f8b3c86137ec7cef090574b1578d89290b)
 [Brian Blaylock](mailto:blaylockbk@users.noreply.github.com) | chmod: add a+rX example (#6457) | 2021-09-03T22:43:28 | [96306c0c946e](https://github.com/tldr-pages/tldr/commit/96306c0c946e8d4c3e8e05acc47797f2f70a8dc2)
 [Dario Vladović](mailto:d.vladimyr@gmail.com) | coreutils*: use short more info links (#5658) | 2021-04-01T17:54:26 | [4830093903f6](https://github.com/tldr-pages/tldr/commit/4830093903f66ccf3ebbc2ecf477286e45edac59)
 [marchersimon](mailto:50295997+marchersimon@users.noreply.github.com) | chmod: change more information link (#5547) | 2021-03-29T22:28:18 | [db38dff0e9db](https://github.com/tldr-pages/tldr/commit/db38dff0e9db1d880e7406df340d16509470fbbb)
