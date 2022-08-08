@@ -1,11 +1,11 @@
 ---
 author: ['K.B.Dharun Krishna']
-date: 1659700161
+date: 1659905070
 title: "gcc"
 description: "gcc, C மற்றும் C++ மூலக் கோப்புகளை முன் செயலாக்கம் செய்து தொகுத்து, பின்னர் அவற்றைச் சேகரித்து இணைக்கவும்."
 categories: "common"
 ---
-> மேலும் தகவல்: <https://gcc.gnu.org>.
+> மேலும் விவரத்திற்கு: <https://gcc.gnu.org>.
 
 - பல மூல கோப்புகளை இயங்கக்கூடியதாக தொகுக்கவும்:
 
@@ -41,5 +41,6 @@ List of changes to this documentation
 
 Author | Description | ISO 8601 Date | GitHub link
 ------|-----|-----|-----
+[K.B.Dharun Krishna](mailto:kbdharunkrishna@gmail.com) | pages.ta/*: fix more information Tamil translation (#8320) | 2022-08-07T22:44:30 | [e2a742ca82e2](https://github.com/tldr-pages/tldr/commit/e2a742ca82e2889a2d605962a45196e64b7579e4)
 [K.B.Dharun Krishna](mailto:kbdharunkrishna@gmail.com) | cc, g++, gcc: add Tamil translation (#8292) | 2022-08-05T13:49:21 | [6459d45c07b4](https://github.com/tldr-pages/tldr/commit/6459d45c07b42ebca4eabf405b78538e11f296d6)
 

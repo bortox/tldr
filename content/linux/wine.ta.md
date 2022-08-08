@@ -1,11 +1,11 @@
 ---
 author: ['K.B.Dharun Krishna']
-date: 1659619745
+date: 1659905070
 title: "wine"
 description: "wine, யூனிக்ஸ் அடிப்படையிலான கணினிகளில் விண்டோஸ் இயங்குதளங்களை இயக்கவும்."
 categories: "linux"
 ---
-> மேலும் தகவல்: <https://wiki.winehq.org/>.
+> மேலும் விவரத்திற்கு: <https://wiki.winehq.org/>.
 
 - `wine` சூழலில் ஒரு குறிப்பிட்ட நிரலை இயக்கவும்::
 
@@ -47,5 +47,6 @@ List of changes to this documentation
 
 Author | Description | ISO 8601 Date | GitHub link
 ------|-----|-----|-----
+[K.B.Dharun Krishna](mailto:kbdharunkrishna@gmail.com) | pages.ta/*: fix more information Tamil translation (#8320) | 2022-08-07T22:44:30 | [e2a742ca82e2](https://github.com/tldr-pages/tldr/commit/e2a742ca82e2889a2d605962a45196e64b7579e4)
 [K.B.Dharun Krishna](mailto:kbdharunkrishna@gmail.com) | wine: add Tamil translation (#8295) | 2022-08-04T15:29:05 | [ac73ace14e86](https://github.com/tldr-pages/tldr/commit/ac73ace14e862aa28852ad19e45c78f44989f6b1)
 

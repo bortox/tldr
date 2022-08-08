@@ -1,6 +1,6 @@
 ---
-author: ['Nicolas Kosinski', 'Pierre Rudloff', 'pxgamer', 'Nikolay Chernov', 'Elijah Shackelford']
-date: 1633517930
+author: ['pxgamer', 'Nikolay Chernov', 'Pierre Rudloff', 'Nicolas Kosinski', 'Elijah Shackelford']
+date: 1659879976
 title: "sdk"
 description: "sdk, Tool for managing parallel versions of multiple Software Development Kits."
 categories: "common"
@@ -9,58 +9,59 @@ categories: "common"
 
 > More information: <https://sdkman.io/usage>.
 
-- Install a specific version of Gradle:
+- Install an SDK version:
 
 ```bash
-sdk install gradle gradle_version
+sdk install sdk_name sdk_version
 ```
 
-- Switch to a specific version of Gradle:
+- Use a specific SDK version for the current terminal session:
 
 ```bash
-sdk use gradle gradle_version
+sdk use sdk_name sdk_version
 ```
 
-- Check current Gradle version:
+- Show the stable version of any available SDK:
 
 ```bash
-sdk current gradle
+sdk current sdk_name
 ```
 
-- List all Software Development Kits available to install:
-
-```bash
-sdk list
-```
-
-- List all available versions for a specific Software Development Kit:
-
-```bash
-sdk list sdk_name
-```
-
-- List all installed Software Development Kits:
+- Show the stable versions of all installed SDKs:
 
 ```bash
 sdk current
 ```
 
-- Update Gradle to the latest version:
+- List all available SDKs:
 
 ```bash
-sdk upgrade gradle
+sdk list
 ```
 
-- Uninstall a particular version of Gradle:
+- List all versions of an SDK:
 
 ```bash
-sdk rm gradle gradle_version
+sdk list sdk_name
+```
+
+- Upgrade an SDK to the latest stable version:
+
+```bash
+sdk upgrade sdk_name
+```
+
+- Uninstall a specific SDK version:
+
+```bash
+sdk rm sdk_name sdk_version
 ```
 List of changes to this documentation
 
 
 Author | Description | ISO 8601 Date | GitHub link
 ------|-----|-----|-----
+[Nicolas Kosinski](mailto:nicokosi@users.noreply.github.com) | sdk: generalize for any SDKs and enhance explanations (#8232) * sdk: generalize for any SDKs and enhance explanations 1. There was a [...] | 2022-08-07T15:46:16 | [d77ba3e21fd2](https://github.com/tldr-pages/tldr/commit/d77ba3e21fd25dd9c5fcf64c57ecbce59eacafae)
 [Elijah Shackelford](mailto:33649649+eshack94@users.noreply.github.com) | sdk: add command to list version for specific sdk (#6760) | 2021-10-06T12:58:50 | [99f0783564ca](https://github.com/tldr-pages/tldr/commit/99f0783564ca5046a7cbd4f8f721a5434027cc79)
 [Nicolas Kosinski](mailto:nicokosi@users.noreply.github.com) | sdk: (#6580) | 2021-09-25T08:03:05 | [ede6cb72f69a](https://github.com/tldr-pages/tldr/commit/ede6cb72f69af572c1c14ace9815fdc05f2a2b3c)
 [Pierre Rudloff](mailto:contact@rudloff.pro) | sdk: fix documentation URL (#4076) | 2020-05-28T01:53:13 | [7045283fa1ee](https://github.com/tldr-pages/tldr/commit/7045283fa1ee12b15efbfdb7a94314f979bb9fdd)

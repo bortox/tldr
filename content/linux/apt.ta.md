@@ -1,13 +1,13 @@
 ---
 author: ['K.B.Dharun Krishna']
-date: 1659683329
+date: 1659905070
 title: "apt"
 description: "apt, டெபியன் அடிப்படையிலான விநியோகங்களுக்கான தொகுப்பு மேலாண்மை பயன்பாடு."
 categories: "linux"
 ---
 > உபுண்டு பதிப்பு 16.04 மற்றும் அதற்குப் பிந்தைய பதிப்புகளில் ஊடாடும் வகையில் பயன்படுத்தப்படும் போது `apt-get` க்கு மாற்றாக பரிந்துரைக்கப்படுகிறது.
 
-> மேலும் தகவல்: <https://manpages.debian.org/latest/apt/apt.8.html>.
+> மேலும் விவரத்திற்கு: <https://manpages.debian.org/latest/apt/apt.8.html>.
 
 - கிடைக்கக்கூடிய தொகுப்புகள் மற்றும் பதிப்புகளின் பட்டியலைப் புதுப்பிக்கவும் (மற்ற `apt` கட்டளைகளுக்கு முன் இதை இயக்க பரிந்துரைக்கப்படுகிறது):
 
@@ -61,5 +61,6 @@ List of changes to this documentation
 
 Author | Description | ISO 8601 Date | GitHub link
 ------|-----|-----|-----
+[K.B.Dharun Krishna](mailto:kbdharunkrishna@gmail.com) | pages.ta/*: fix more information Tamil translation (#8320) | 2022-08-07T22:44:30 | [e2a742ca82e2](https://github.com/tldr-pages/tldr/commit/e2a742ca82e2889a2d605962a45196e64b7579e4)
 [K.B.Dharun Krishna](mailto:kbdharunkrishna@gmail.com) | apt: add Tamil translation (#8294) | 2022-08-05T09:08:49 | [812e191d27b7](https://github.com/tldr-pages/tldr/commit/812e191d27b78abedeebfe6f9b0e2b69c47b4884)
 

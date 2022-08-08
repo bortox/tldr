@@ -1,13 +1,13 @@
 ---
 author: ['K.B.Dharun Krishna']
-date: 1659802437
+date: 1659905070
 title: "uname"
 description: "uname, தற்போதைய இயந்திரம் மற்றும் அதில் இயங்கும் இயக்க முறைமை பற்றிய விவரங்களை அச்சிடவும்."
 categories: "common"
 ---
 > `lsb_release` ஐயும் பார்க்கவும்.
 
-> மேலும் தகவல்: <https://www.gnu.org/software/coreutils/uname>.
+> மேலும் விவரத்திற்கு: <https://www.gnu.org/software/coreutils/uname>.
 
 - கர்னல் பெயரை அச்சிடவும்:
 
@@ -43,5 +43,6 @@ List of changes to this documentation
 
 Author | Description | ISO 8601 Date | GitHub link
 ------|-----|-----|-----
+[K.B.Dharun Krishna](mailto:kbdharunkrishna@gmail.com) | pages.ta/*: fix more information Tamil translation (#8320) | 2022-08-07T22:44:30 | [e2a742ca82e2](https://github.com/tldr-pages/tldr/commit/e2a742ca82e2889a2d605962a45196e64b7579e4)
 [K.B.Dharun Krishna](mailto:kbdharunkrishna@gmail.com) | uname: add Tamil translation (#8282) | 2022-08-06T18:13:57 | [3d4954235c9e](https://github.com/tldr-pages/tldr/commit/3d4954235c9e40cbba55f8a723e9eebd18e3d04e)
 

@@ -1,11 +1,11 @@
 ---
 author: ['K.B.Dharun Krishna']
-date: 1659239624
+date: 1659905070
 title: "calc"
 description: "calc, முனையத்தில் ஒரு ஊடாடும் தன்னிச்சையான துல்லியமான கால்குலேட்டர்."
 categories: "common"
 ---
-> மேலும் தகவல்: <https://github.com/lcn2/calc>.
+> மேலும் விவரத்திற்கு: <https://github.com/lcn2/calc>.
 
 - ஊடாடும் பயன்முறையில் `calc` ஐத் தொடங்கவும்:
 
@@ -59,5 +59,6 @@ List of changes to this documentation
 
 Author | Description | ISO 8601 Date | GitHub link
 ------|-----|-----|-----
+[K.B.Dharun Krishna](mailto:kbdharunkrishna@gmail.com) | pages.ta/*: fix more information Tamil translation (#8320) | 2022-08-07T22:44:30 | [e2a742ca82e2](https://github.com/tldr-pages/tldr/commit/e2a742ca82e2889a2d605962a45196e64b7579e4)
 [K.B.Dharun Krishna](mailto:kbdharunkrishna@gmail.com) | cal, calc, cd: add Tamil translation (#8268) | 2022-07-31T05:53:44 | [79d47906f858](https://github.com/tldr-pages/tldr/commit/79d47906f85809073187567a5dccd0d78a00b71b)
 
