@@ -1,6 +1,6 @@
 ---
-author: ['Francesco Franchina']
-date: 1635017799
+author: ['Muhammad Falak R Wani', 'Francesco Franchina']
+date: 1660129032
 title: "pyenv"
 description: "pyenv, Passa da una distribuzione all'altra di Python in modo semplice."
 categories: "common"
@@ -17,6 +17,12 @@ pyenv commands
 
 ```bash
 pyenv versions
+```
+
+- Elenca tutte le versioni di Python che possono essere installate da upstream:
+
+```bash
+pyenv install --list
 ```
 
 - Installa una distribuzione di Python nella cartella `${PYENV_ROOT}/versions`:
@@ -47,5 +53,6 @@ Elenco delle modifiche apportate alla documentazione
 
 Autore | Descrizione | Data formato ISO 8601 | Collegamento a GitHub
 ------|-----|-----|-----
+[Muhammad Falak R Wani](mailto:falakreyaz@gmail.com) | pyenv: add example to list all installable versions (#8327) * pyenv: add example to list all installable versions * pyenv: add italian [...] | 2022-08-10T12:57:12 | [86c27744b0ba](https://github.com/tldr-pages/tldr/commit/86c27744b0baa0b222363aac1905de269052d05b)
 [Francesco Franchina](mailto:cescus92@gmail.com) | pyenv, pyenv-virtualenv: add Italian translation (#6980) | 2021-10-23T21:36:39 | [f9c01797e7bd](https://github.com/tldr-pages/tldr/commit/f9c01797e7bdef17dea1c06f88ee7900b48b9017)
 

@@ -1,6 +1,6 @@
 ---
-author: ['Nicolas Hansse', 'D34DPlayer', 'Axel Navarro', 'bl-ue', 'marchersimon']
-date: 1635127833
+author: ['Nicolas Hansse', 'D34DPlayer', 'bl-ue', 'Axel Navarro', 'marchersimon']
+date: 1660133637
 title: "pacman"
 description: "pacman, Outil de gestion de paquets sur Arch Linux."
 categories: "linux"
@@ -12,55 +12,56 @@ categories: "linux"
 - Synchronise et mets à jour tous les paquets :
 
 ```bash
-sudo pacman --sync --refresh --sysupgrade
+sudo pacman -Syu
 ```
 
 - Installe un nouveau paquet :
 
 ```bash
-sudo pacman --sync nom_paquet
+sudo pacman -S nom_paquet
 ```
 
 - Efface un paquet et ses dépendances :
 
 ```bash
-sudo pacman --remove --recursive nom_paquet
+sudo pacman -Rs nom_paquet
 ```
 
 - Recherche dans la base de données des paquets une expression régulière ou mot clé :
 
 ```bash
-pacman --sync --search "terme_recherche"
+pacman -Ss "terme_recherche"
 ```
 
 - Liste les paquets installés et leurs versions :
 
 ```bash
-pacman --query
+pacman -Q
 ```
 
 - Liste seulement les paquets installés explicitement et leurs versions :
 
 ```bash
-pacman --query --explicit
+pacman -Qe
 ```
 
 - Trouve à quel paquet un certain fichier appartient :
 
 ```bash
-pacman --query --owns fichier
+pacman -Qo fichier
 ```
 
 - Vide le cache des paquets pour libérer de l'espace :
 
 ```bash
-sudo pacman --sync --clean --clean
+sudo pacman -Scc
 ```
 Liste des modifications apportées à cette documentation
 
 
 Auteur | Description | Format de la date ISO 8601 | Lien vers GitHub
 ------|-----|-----|-----
+[marchersimon](mailto:50295997+marchersimon@users.noreply.github.com) | pacman: use short options only (#8286) | 2022-08-10T14:13:57 | [1f147d6b91a6](https://github.com/tldr-pages/tldr/commit/1f147d6b91a67044e5f60817a0355d2acd40bb88)
 [marchersimon](mailto:50295997+marchersimon@users.noreply.github.com) | pacman: add sudo and use long options (#7132) | 2021-10-25T04:10:33 | [c9b534415099](https://github.com/tldr-pages/tldr/commit/c9b534415099cd2931eaf120938f201240c521a8)
 [marchersimon](mailto:50295997+marchersimon@users.noreply.github.com) | Replace non-breaking space with regular space in French pages (#6842) | 2021-10-07T09:37:39 | [d63065b882e7](https://github.com/tldr-pages/tldr/commit/d63065b882e77c3d3361e76cfa7f28bf5415832e)
 [Nicolas Hansse](mailto:nico.hansse@gmail.com) | *: mention subcommands in FR translations (#6823) | 2021-10-06T22:45:59 | [b0e0a6e58cfb](https://github.com/tldr-pages/tldr/commit/b0e0a6e58cfbff6cb7041a4d37b1b46ddac79941)

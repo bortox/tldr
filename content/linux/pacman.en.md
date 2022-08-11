@@ -1,6 +1,6 @@
 ---
-author: ['SushiDude', 'Gergely Imreh', 'Damian Poddebniak', 'Agniva De Sarker', 'rprieto', 'Axel Navarro', 'Alberto', 'lord63', 'Ruben Vereecken', 'CleanMachine1', 'marchersimon']
-date: 1635127833
+author: ['Alberto', 'rprieto', 'Agniva De Sarker', 'CleanMachine1', 'Ruben Vereecken', 'Damian Poddebniak', 'lord63', 'Axel Navarro', 'Gergely Imreh', 'marchersimon', 'SushiDude']
+date: 1660133637
 title: "pacman"
 description: "pacman, Arch Linux package manager utility."
 categories: "linux"
@@ -12,55 +12,56 @@ categories: "linux"
 - Synchronize and update all packages:
 
 ```bash
-sudo pacman --sync --refresh --sysupgrade
+sudo pacman -Syu
 ```
 
 - Install a new package:
 
 ```bash
-sudo pacman --sync package_name
+sudo pacman -S package_name
 ```
 
 - Remove a package and its dependencies:
 
 ```bash
-sudo pacman --remove --recursive package_name
+sudo pacman -Rs package_name
 ```
 
 - Search the package database for a regular expression or keyword:
 
 ```bash
-pacman --sync --search "search_pattern"
+pacman -Ss "search_pattern"
 ```
 
 - List installed packages and versions:
 
 ```bash
-pacman --query
+pacman -Q
 ```
 
 - List only the explicitly installed packages and versions:
 
 ```bash
-pacman --query --explicit
+pacman -Qe
 ```
 
 - List orphan packages (installed as dependencies but not actually required by any package):
 
 ```bash
-pacman --query --unrequired --deps --quiet
+pacman -Qtdq
 ```
 
 - Empty the entire pacman cache:
 
 ```bash
-sudo pacman --sync --clean --clean
+sudo pacman -Scc
 ```
 List of changes to this documentation
 
 
 Author | Description | ISO 8601 Date | GitHub link
 ------|-----|-----|-----
+[marchersimon](mailto:50295997+marchersimon@users.noreply.github.com) | pacman: use short options only (#8286) | 2022-08-10T14:13:57 | [1f147d6b91a6](https://github.com/tldr-pages/tldr/commit/1f147d6b91a67044e5f60817a0355d2acd40bb88)
 [marchersimon](mailto:50295997+marchersimon@users.noreply.github.com) | pacman: add sudo and use long options (#7132) | 2021-10-25T04:10:33 | [c9b534415099](https://github.com/tldr-pages/tldr/commit/c9b534415099cd2931eaf120938f201240c521a8)
 [marchersimon](mailto:50295997+marchersimon@users.noreply.github.com) | mention subcommands in every base page (#6383) | 2021-09-13T10:21:21 | [bd677b8b4826](https://github.com/tldr-pages/tldr/commit/bd677b8b48260e301fb99fea794f4dc1458d1562)
 [CleanMachine1](mailto:78213164+CleanMachine1@users.noreply.github.com) | pacman: use long arguments and replace -Qo example (#6083) | 2021-06-07T22:26:05 | [0314a1240935](https://github.com/tldr-pages/tldr/commit/0314a124093567a8a9c7184dacbd79904d0e8d17)
