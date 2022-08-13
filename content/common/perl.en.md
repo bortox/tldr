@@ -1,6 +1,6 @@
 ---
-author: ['Waldir Pimenta', 'Lucas Gabriel Schneider', 'Assem Attia', 'pxgamer', 'morrme', 'bl-ue', 'Zachary Sherwin', 'Shawn Allen']
-date: 1651302593
+author: ['morrme', 'izokina', 'Assem Attia', 'Shawn Allen', 'Lucas Gabriel Schneider', 'bl-ue', 'Waldir Pimenta', 'pxgamer', 'Zachary Sherwin']
+date: 1660308351
 title: "perl"
 description: "perl, The Perl 5 language interpreter."
 categories: "common"
@@ -31,7 +31,7 @@ perl -e perl_statement
 perl -d script.pl
 ```
 
-- Edit all file lines [i]n-place with a specific replacement [e]xpression and save a file with a new extension:
+- Edit all file lines [i]n-place with a specific replacement [e]xpression, saving a backup with a new extension:
 
 ```bash
 perl -p -i'.extension' -e 's/regular_expression/replacement/g' path/to/file
@@ -59,6 +59,7 @@ List of changes to this documentation
 
 Author | Description | ISO 8601 Date | GitHub link
 ------|-----|-----|-----
+[izokina](mailto:izokina@users.noreply.github.com) | perl: fix -i option description (#8340) | 2022-08-12T14:45:51 | [a3d5656a8dce](https://github.com/tldr-pages/tldr/commit/a3d5656a8dce755b6bbb33ac812ba8af5b20b0ec)
 [Shawn Allen](mailto:shawnbot@users.noreply.github.com) | perl: improve matching pattern example, arg consistency, etc. (#8043) * perl: improve matching pattern examples * perl: remove in- [...] | 2022-04-30T09:09:53 | [918891f3118b](https://github.com/tldr-pages/tldr/commit/918891f3118b43ad58873deb75f79577c727d37e)
 [bl-ue](mailto:54780737+bl-ue@users.noreply.github.com) | *: fix typos reported by Hunspell (#5848) Co-authored-by: marchersimon <50295997+marchersimon@users.noreply.github.com> Co-authored- [...] | 2021-05-20T22:13:41 | [8ebd171d6f00](https://github.com/tldr-pages/tldr/commit/8ebd171d6f001698709fefc02b1fd5cc9f3a99c4)
 [Lucas Gabriel Schneider](mailto:casdpa@gmail.com) | multiple pages: format technical tokens (#5119) Co-authored-by: bl-ue <54780737+bl-ue@users.noreply.github.com> Co-authored-by: [...] | 2021-01-31T18:05:18 | [a5fe31bc47ae](https://github.com/tldr-pages/tldr/commit/a5fe31bc47aece3efa5e66b52b3cf384f27d5d72)
