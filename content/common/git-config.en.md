@@ -1,6 +1,6 @@
 ---
-author: ['Waldir Pimenta', 'lucas schneider', 'Igor Shubovych', 'Starbeamrainbowlabs', 'Marco Bonelli', 'Ruben Vereecken', 'Matt Watson']
-date: 1610111394
+author: ['lucas schneider', 'Marco Bonelli', 'Waldir Pimenta', 'Ruben Vereecken', 'Matt Watson', 'Starbeamrainbowlabs', 'AriESQ', 'Igor Shubovych']
+date: 1660615491
 title: "git config"
 description: "git config, Manage custom configuration options for Git repositories."
 categories: "common"
@@ -21,10 +21,10 @@ git config --list --local
 git config --list --global
 ```
 
-- List all configuration entries that have been defined either locally or globally:
+- List only system configuration entries (stored in `/etc/gitconfig`), and show their file location:
 
 ```bash
-git config --list
+git config --list --system --show-origin
 ```
 
 - Get the value of a given configuration entry:
@@ -61,6 +61,7 @@ List of changes to this documentation
 
 Author | Description | ISO 8601 Date | GitHub link
 ------|-----|-----|-----
+[AriESQ](mailto:19827230+AriESQ@users.noreply.github.com) | git-config: add --show-origin example (#8357) | 2022-08-16T04:04:51 | [4bc6af6accb7](https://github.com/tldr-pages/tldr/commit/4bc6af6accb77c8ed4f9d26fb554c2c74f530975)
 [lucas schneider](mailto:casdpa@gmail.com) | rename git to Git | 2021-01-08T14:09:54 | [eef3712fc3a6](https://github.com/tldr-pages/tldr/commit/eef3712fc3a6a3774384b2e4ed934583c8349d75)
 [Matt Watson](mailto:matthew.watson1990@googlemail.com) | git-config: add example for editing in default editor (#4176) Co-authored-by: Starbeamrainbowlabs <sbrl@starbeamrainbowlabs.com> | 2020-07-17T19:40:48 | [01d22cdbc9f6](https://github.com/tldr-pages/tldr/commit/01d22cdbc9f678e08171e941c70d978e4354e812)
 [Marco Bonelli](mailto:marco@mebeim.net) | Refactor: reword English pages' links' descriptions. | 2019-06-03T14:19:41 | [66abb98ce935](https://github.com/tldr-pages/tldr/commit/66abb98ce935c0f4516bf30c4d6da72180d5a3ab)

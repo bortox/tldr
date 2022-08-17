@@ -1,6 +1,6 @@
 ---
-author: ['千玄子', 'hugue', 'Ein Verne', 'bl-ue', 'Patrice Denis', 'Seth Falco', 'marchersimon']
-date: 1648358715
+author: ['Patrice Denis', 'Ein Verne', 'bl-ue', 'hugue', 'Seth Falco', 'marchersimon', '千玄子']
+date: 1660628187
 title: "adduser"
 description: "adduser, 添加用户的工具。"
 categories: "linux"
@@ -36,17 +36,12 @@ adduser --shell shell 路径 用户名
 ```bash
 adduser --ingroup 用户组 用户名
 ```
-
-- 将一个现有用户加入指定用户组：
-
-```bash
-adduser 用户名 用户组
-```
 对该文件所做的修改清单
 
 
 作者 | 描述 | ISO 8601日期格式 | 链接到GitHub
 ------|-----|-----|-----
+[千玄子](mailto:ownbyzjuyk@gmail.com) | adduser: update Chinese translation (#8356) | 2022-08-16T07:36:27 | [e045c22ad6b1](https://github.com/tldr-pages/tldr/commit/e045c22ad6b1e7e377cd89a8b2c11e189abdda7a)
 [Seth Falco](mailto:seth@falco.fun) | *: normalize colons (#7913) | 2022-03-27T07:25:15 | [27ff55fc2eea](https://github.com/tldr-pages/tldr/commit/27ff55fc2eea445eb5216c3b1d934960539fc024)
 [marchersimon](mailto:50295997+marchersimon@users.noreply.github.com) | Chinese pages: remove space in More info link (#6305) | 2021-08-31T09:13:49 | [c70c0c26884e](https://github.com/tldr-pages/tldr/commit/c70c0c26884ee74fabb640cd842d1e4c72d9df4b)
 [千玄子](mailto:ownbyzjuyk@gmail.com) | adduser, apt-*, apt, aptitude, at: update Chinese translation (#6400) | 2021-08-23T21:25:59 | [ff74227350e9](https://github.com/tldr-pages/tldr/commit/ff74227350e9b89a9501ddbf39089ed60876201c)
