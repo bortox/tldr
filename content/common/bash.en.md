@@ -1,11 +1,11 @@
 ---
-author: ['Waldir Pimenta', 'sabour_f', 'Hayden Schiff', 'Lucas Gabriel Schneider', 'Quentin Duchemin', 'Ruben Vereecken', 'pxgamer', 'Starbeamrainbowlabs', 'David Menéndez Negro', 'bl-ue', 'marchersimon']
-date: 1621541621
+author: ['Waldir Pimenta', 'pxgamer', 'Emily Grace Seville', 'Ruben Vereecken', 'bl-ue', 'Quentin Duchemin', 'Starbeamrainbowlabs', 'sabour_f', 'Hayden Schiff', 'David Menéndez Negro', 'Lucas Gabriel Schneider', 'marchersimon']
+date: 1660870417
 title: "bash"
 description: "bash, Bourne-Again SHell, an `sh`-compatible command-line interpreter."
 categories: "common"
 ---
-> See also `histexpand` for history expansion.
+> See also: `zsh`, `histexpand` (history expansion).
 
 > More information: <https://gnu.org/software/bash/>.
 
@@ -15,46 +15,47 @@ categories: "common"
 bash
 ```
 
-- Execute a command and then exit:
+- Start an interactive shell session without loading startup configs:
 
 ```bash
-bash -c "command"
+bash --norc
 ```
 
-- Execute a script:
+- Execute specific [c]ommands:
+
+```bash
+bash -c "echo 'bash is executed'"
+```
+
+- Execute a specific script:
 
 ```bash
 bash path/to/script.sh
 ```
 
-- Execute a script, printing each command before executing it:
+- Execute a specific script while printing each command before executing it:
 
 ```bash
 bash -x path/to/script.sh
 ```
 
-- Execute commands from a script, stopping at the first error:
+- Execute a specific script and stop at the first [e]rror:
 
 ```bash
 bash -e path/to/script.sh
 ```
 
-- Read and execute commands from stdin:
+- Execute specific commands from stdin:
 
 ```bash
-bash -s
-```
-
-- Print the Bash version (`$BASH_VERSION` contains the version without license information):
-
-```bash
-bash --version
+echo "echo 'bash is executed'" | bash
 ```
 List of changes to this documentation
 
 
 Author | Description | ISO 8601 Date | GitHub link
 ------|-----|-----|-----
+[Emily Grace Seville](mailto:emilyseville7cf@gmail.com) | bash: refresh page (#7980) * Refresh a page: - better grammar - better token syntax * Simplify `-s` example | 2022-08-19T02:53:37 | [e7eae6c77237](https://github.com/tldr-pages/tldr/commit/e7eae6c77237142902d2dfee3da821cac8e1ae01)
 [bl-ue](mailto:54780737+bl-ue@users.noreply.github.com) | *: fix typos reported by Hunspell (#5848) Co-authored-by: marchersimon <50295997+marchersimon@users.noreply.github.com> Co-authored- [...] | 2021-05-20T22:13:41 | [8ebd171d6f00](https://github.com/tldr-pages/tldr/commit/8ebd171d6f001698709fefc02b1fd5cc9f3a99c4)
 [bl-ue](mailto:54780737+bl-ue@users.noreply.github.com) | bash, dash, fish, ksh, rbash, sh, zsh: refresh (#5714) | 2021-04-14T16:07:21 | [16e4ed5c8993](https://github.com/tldr-pages/tldr/commit/16e4ed5c899393a2563346ddde246e136de801ab)
 [marchersimon](mailto:50295997+marchersimon@users.noreply.github.com) | histexpand: add page (#5455) Also add a reference to the new page in bash.md and zsh.md | 2021-04-04T22:07:13 | [03819122c9bc](https://github.com/tldr-pages/tldr/commit/03819122c9bc668750cd8c9a7f8a4a92c615c0e3)

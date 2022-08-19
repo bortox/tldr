@@ -1,6 +1,6 @@
 ---
-author: ['lincc']
-date: 1631112660
+author: ['lincc', 'Guohan Li']
+date: 1660872445
 title: "brew"
 description: "brew, Linux 和 macOS 的包管理器。"
 categories: "common"
@@ -49,7 +49,7 @@ brew search 包名
 brew info 配方
 ```
 
-- 檢查本地 Homebrew 安裝包是否有潛在問題：
+- 检查本地 Homebrew 安装包是否有潜在问题：
 
 ```bash
 brew doctor
@@ -59,5 +59,6 @@ brew doctor
 
 作者 | 描述 | ISO 8601日期格式 | 链接到GitHub
 ------|-----|-----|-----
+[Guohan Li](mailto:44457621+guohanli@users.noreply.github.com) | brew: fix simplified Chinese translation (#8368) Some words are written in traditional Chinese, which should be simplified Chinese. | 2022-08-19T03:27:25 | [93ed1e48385c](https://github.com/tldr-pages/tldr/commit/93ed1e48385c458f3d823f192f5359c9812fcc37)
 [lincc](mailto:46962923+blueskyson@users.noreply.github.com) | brew: sync traditional Chinese translation (#6492) | 2021-09-08T16:51:00 | [d30ee43e7d48](https://github.com/tldr-pages/tldr/commit/d30ee43e7d48a803c5c3bc369b16e6ba628be9eb)
 

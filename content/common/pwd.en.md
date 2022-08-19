@@ -1,6 +1,6 @@
 ---
-author: ['Iran Neto', 'Dario Vladović', 'Felix Yan', 'Hayden Schiff', 'Ruben Vereecken', 'CleanMachine1', 'marchersimon']
-date: 1648999295
+author: ['Iran Neto', 'Emily Grace Seville', 'Ruben Vereecken', 'Felix Yan', 'Dario Vladović', 'Hayden Schiff', 'CleanMachine1', 'marchersimon']
+date: 1660877081
 title: "pwd"
 description: "pwd, Print name of current/working directory."
 categories: "common"
@@ -18,17 +18,12 @@ pwd
 ```bash
 pwd -P
 ```
-
-- Print the current logical directory:
-
-```bash
-pwd -L
-```
 List of changes to this documentation
 
 
 Author | Description | ISO 8601 Date | GitHub link
 ------|-----|-----|-----
+[Emily Grace Seville](mailto:emilyseville7cf@gmail.com) | Remove -L example: (#8365) - according to: https://unixhealthcheck.com/blog?id=157 | 2022-08-19T04:44:41 | [b796a43b7ffc](https://github.com/tldr-pages/tldr/commit/b796a43b7ffcc2b44fdcca2660ce465715e9c0e5)
 [CleanMachine1](mailto:78213164+CleanMachine1@users.noreply.github.com) | pwd: fix flags (#7953) | 2022-04-03T17:21:35 | [f2ce86befd79](https://github.com/tldr-pages/tldr/commit/f2ce86befd792df3407de4d15464f096d2396fd6)
 [Iran Neto](mailto:iranmacedo.bneto@gmail.com) | fc, pwd: add examples (#7284) | 2021-11-01T06:28:43 | [7097110ca0dd](https://github.com/tldr-pages/tldr/commit/7097110ca0dd42476c7e127048e4c2329f4ed3af)
 [Dario Vladović](mailto:d.vladimyr@gmail.com) | coreutils*: use short more info links (#5658) | 2021-04-01T17:54:26 | [4830093903f6](https://github.com/tldr-pages/tldr/commit/4830093903f66ccf3ebbc2ecf477286e45edac59)
