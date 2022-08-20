@@ -1,6 +1,6 @@
 ---
-author: ['bl-ue', 'Anton Paulsson', 'Flex Zhong', 'marchersimon']
-date: 1633348559
+author: ['Guohan Li', 'Anton Paulsson', 'marchersimon', 'bl-ue', 'Flex Zhong']
+date: 1660934689
 title: "cd"
 description: "cd, 更改当前工作目录。"
 categories: "common"
@@ -10,7 +10,13 @@ categories: "common"
 - 转到指定目录：
 
 ```bash
-cd 路径
+cd 路径/到/目录
+```
+
+- 转到当前目录的父目录：
+
+```bash
+cd ..
 ```
 
 - 转到当前用户的主（home）目录：
@@ -19,10 +25,10 @@ cd 路径
 cd
 ```
 
-- 转到当前目录的父目录：
+- 转到指定用户的主（home）目录：
 
 ```bash
-cd ..
+cd ~用户名
 ```
 
 - 转到刚才选择的目录：
@@ -35,6 +41,7 @@ cd -
 
 作者 | 描述 | ISO 8601日期格式 | 链接到GitHub
 ------|-----|-----|-----
+[Guohan Li](mailto:44457621+guohanli@users.noreply.github.com) | cd: update Chinese translation (#8375) | 2022-08-19T20:44:49 | [ce4578cade6c](https://github.com/tldr-pages/tldr/commit/ce4578cade6cf62ac80101558128645aaf855114)
 [Anton Paulsson](mailto:Anton.Zichi@gmail.com) | cd: fix link and add Swedish translation (#6755) | 2021-10-04T13:55:59 | [f886e4eec886](https://github.com/tldr-pages/tldr/commit/f886e4eec886de4af7978b503ba85d4a40585814)
 [marchersimon](mailto:50295997+marchersimon@users.noreply.github.com) | Chinese pages: remove space in More info link (#6305) | 2021-08-31T09:13:49 | [c70c0c26884e](https://github.com/tldr-pages/tldr/commit/c70c0c26884ee74fabb640cd842d1e4c72d9df4b)
 [bl-ue](mailto:54780737+bl-ue@users.noreply.github.com) | Chinese pages: correct Chinese punctuation (#5240) | 2021-08-02T10:41:09 | [289e30dfb3d1](https://github.com/tldr-pages/tldr/commit/289e30dfb3d1d73bade9e3610e12bfc90e9270ae)
