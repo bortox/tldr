@@ -1,6 +1,6 @@
 ---
-author: ['Cvetomir Denchev', 'Emily Grace Seville', 'Srinivasan R', 'pxgamer', 'Marco Bonelli', 'liuderchi', 'CleanMachine1', 'Ruben Vereecken']
-date: 1646220963
+author: ['Marco Bonelli', 'liuderchi', 'Srinivasan R', 'Emily Grace Seville', 'Cvetomir Denchev', 'pxgamer', 'jxu', 'Ruben Vereecken', 'CleanMachine1']
+date: 1661170340
 title: "gcc"
 description: "gcc, Preprocess and compile C and C++ source files, then assemble and link them together."
 categories: "common"
@@ -31,7 +31,7 @@ gcc path/to/source.c --output path/to/output_executable -Ipath/to/header -Lpath/
 gcc -S path/to/source.c
 ```
 
-- Compile source code without linking:
+- Compile source code into an object file without linking:
 
 ```bash
 gcc -c path/to/source.c
@@ -41,6 +41,7 @@ List of changes to this documentation
 
 Author | Description | ISO 8601 Date | GitHub link
 ------|-----|-----|-----
+[jxu](mailto:7989982+jxu@users.noreply.github.com) | gcc: mention -c compiles into object file (#8381) * gcc: mention -c compiles into object file * gcc: clarify wording about compiling [...] | 2022-08-22T14:12:20 | [cecf8f215025](https://github.com/tldr-pages/tldr/commit/cecf8f2150257e89f8413b2477c3c0d330f29710)
 [Emily Grace Seville](mailto:emilyseville7cf@gmail.com) | g++, gcc: page update (#7821) * Update placeholders: - use "path/to" - join list of placeholders in gcc * Suggest language standard in [...] | 2022-03-02T12:36:03 | [02c427a039d9](https://github.com/tldr-pages/tldr/commit/02c427a039d9940a0bad40b5f97fad6fa5ff7e84)
 [CleanMachine1](mailto:78213164+CleanMachine1@users.noreply.github.com) | gcc: add long flag (#6182) | 2021-07-02T21:38:46 | [4c0aa1ac0cb7](https://github.com/tldr-pages/tldr/commit/4c0aa1ac0cb7541cd982040668faad0d842aa1a2)
 [Marco Bonelli](mailto:mebeim@users.noreply.github.com) | gcc: make page description impersonal. (#3526) | 2019-11-04T02:30:33 | [e5f79d3d2cd5](https://github.com/tldr-pages/tldr/commit/e5f79d3d2cd563f97debc4770c8f21279aab4dfc)
