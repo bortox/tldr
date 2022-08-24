@@ -1,6 +1,6 @@
 ---
-author: ['Marco Bonelli', 'liuderchi', 'Srinivasan R', 'Emily Grace Seville', 'Cvetomir Denchev', 'pxgamer', 'jxu', 'Ruben Vereecken', 'CleanMachine1']
-date: 1661170340
+author: ['jxu', 'CleanMachine1', 'Emily Grace Seville', 'liuderchi', 'Cvetomir Denchev', 'Ruben Vereecken', 'pxgamer', 'Srinivasan R', 'Marco Bonelli']
+date: 1661270562
 title: "gcc"
 description: "gcc, Preprocess and compile C and C++ source files, then assemble and link them together."
 categories: "common"
@@ -10,19 +10,19 @@ categories: "common"
 - Compile multiple source files into executable:
 
 ```bash
-gcc path/to/source1.c path/to/source2.c ... --output path/to/output_executable
+gcc path/to/source1.c path/to/source2.c ... -o path/to/output_executable
 ```
 
 - Allow warnings, debug symbols in output:
 
 ```bash
-gcc path/to/source.c -Wall -Og --output path/to/output_executable
+gcc path/to/source.c -Wall -Og -o path/to/output_executable
 ```
 
 - Include libraries from a different path:
 
 ```bash
-gcc path/to/source.c --output path/to/output_executable -Ipath/to/header -Lpath/to/library -llibrary_name
+gcc path/to/source.c -o path/to/output_executable -Ipath/to/header -Lpath/to/library -llibrary_name
 ```
 
 - Compile source code into Assembler instructions:
@@ -41,6 +41,7 @@ List of changes to this documentation
 
 Author | Description | ISO 8601 Date | GitHub link
 ------|-----|-----|-----
+[jxu](mailto:7989982+jxu@users.noreply.github.com) | gcc: use short -o option for output (#8387) | 2022-08-23T18:02:42 | [17b6ad99435a](https://github.com/tldr-pages/tldr/commit/17b6ad99435a5e287ee2c886557e77644bd5174b)
 [jxu](mailto:7989982+jxu@users.noreply.github.com) | gcc: mention -c compiles into object file (#8381) * gcc: mention -c compiles into object file * gcc: clarify wording about compiling [...] | 2022-08-22T14:12:20 | [cecf8f215025](https://github.com/tldr-pages/tldr/commit/cecf8f2150257e89f8413b2477c3c0d330f29710)
 [Emily Grace Seville](mailto:emilyseville7cf@gmail.com) | g++, gcc: page update (#7821) * Update placeholders: - use "path/to" - join list of placeholders in gcc * Suggest language standard in [...] | 2022-03-02T12:36:03 | [02c427a039d9](https://github.com/tldr-pages/tldr/commit/02c427a039d9940a0bad40b5f97fad6fa5ff7e84)
 [CleanMachine1](mailto:78213164+CleanMachine1@users.noreply.github.com) | gcc: add long flag (#6182) | 2021-07-02T21:38:46 | [4c0aa1ac0cb7](https://github.com/tldr-pages/tldr/commit/4c0aa1ac0cb7541cd982040668faad0d842aa1a2)
