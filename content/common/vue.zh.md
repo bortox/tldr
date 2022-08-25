@@ -1,36 +1,31 @@
 ---
-author: ['Zlatan Vasović', 'Ein Verne', 'KsRyY', 'bl-ue', 'marchersimon']
-date: 1631521281
-title: "vue-cli"
-description: "vue-cli, 用于初始化 Vue.js 项目的 CLI."
+author: ['marchersimon', 'KsRyY', 'bl-ue', 'Guohan Li', 'Zlatan Vasović', 'Ein Verne']
+date: 1661313117
+title: "vue"
+description: "vue, 适用于 Vue.js 项目的多用途命令行接口。"
 categories: "common"
 ---
-> 此命令也有关于其子命令的文件，例如：`vue build`.
+> 此命令也有关于其子命令的文件，例如：`vue build`。
 
 > 更多信息：<https://cli.vuejs.org>.
 
-- 从模板创建新项目：
+- 交互式地创建一个新的 Vue 项目：
 
 ```bash
-vue init template project_name
+vue create 项目名
 ```
 
-- 从本地模板创建新项目：
+- 使用图形化界面创建一个新项目：
 
 ```bash
-vue init path/to/template_directory project_name
-```
-
-- 从 GitHub 上拉取模板并创建新项目：
-
-```bash
-vue init username/repo project_name
+vue ui
 ```
 对该文件所做的修改清单
 
 
 作者 | 描述 | ISO 8601日期格式 | 链接到GitHub
 ------|-----|-----|-----
+[Guohan Li](mailto:44457621+guohanli@users.noreply.github.com) | vue: update chinese translation (#8394) | 2022-08-24T05:51:57 | [9838a35794db](https://github.com/tldr-pages/tldr/commit/9838a35794dbf991b342e43fc7aca575c0d31e54)
 [marchersimon](mailto:50295997+marchersimon@users.noreply.github.com) | mention subcommands in every base page (#6383) | 2021-09-13T10:21:21 | [bd677b8b4826](https://github.com/tldr-pages/tldr/commit/bd677b8b48260e301fb99fea794f4dc1458d1562)
 [marchersimon](mailto:50295997+marchersimon@users.noreply.github.com) | Chinese pages: remove space in More info link (#6305) | 2021-08-31T09:13:49 | [c70c0c26884e](https://github.com/tldr-pages/tldr/commit/c70c0c26884ee74fabb640cd842d1e4c72d9df4b)
 [bl-ue](mailto:54780737+bl-ue@users.noreply.github.com) | Chinese pages: correct Chinese punctuation (#5240) | 2021-08-02T10:41:09 | [289e30dfb3d1](https://github.com/tldr-pages/tldr/commit/289e30dfb3d1d73bade9e3610e12bfc90e9270ae)
