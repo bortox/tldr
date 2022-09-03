@@ -1,6 +1,6 @@
 ---
-author: ["Robby O'Connor", 'Guido Lena Cota', 'Marco Bonelli', 'bl-ue', 'marchersimon']
-date: 1633592259
+author: ['Mia Combeau', 'marchersimon', 'Marco Bonelli', 'bl-ue', "Robby O'Connor", 'Guido Lena Cota']
+date: 1662085730
 title: "tar"
 description: "tar, Utilitaire d'archivage."
 categories: "common"
@@ -9,43 +9,43 @@ categories: "common"
 
 > Plus d'informations : <https://www.gnu.org/software/tar>.
 
-- Créer une archive à partir de fichiers :
+- Crée une archive à partir de fichiers :
 
 ```bash
 tar cf cible.tar fichier1 fichier2 fichier3
 ```
 
-- Créer une archive gzip :
+- Crée une archive gzip :
 
 ```bash
 tar czf cible.tar.gz fichier1 fichier2 fichier3
 ```
 
-- Extraie une archive (compressée) dans le dossier courant :
+- Extrait une archive (compressée) dans le dossier courant :
 
 ```bash
 tar xf source.tar[.gz|.bz2|.xz]
 ```
 
-- Extraie une archive dans un dossier cible :
+- Extrait une archive dans un dossier cible :
 
 ```bash
 tar xf source.tar -C dossier
 ```
 
-- Créer une archive compressée, en utilisant le suffixe de l'archive pour déterminer le programme de compression :
+- Crée une archive compressée, en utilisant le suffixe de l'archive pour déterminer le programme de compression :
 
 ```bash
 tar caf cible.tar.xz fichier1 fichier2 fichier3
 ```
 
-- Lister le contenu d'une archive tar :
+- Liste le contenu d'une archive tar :
 
 ```bash
 tar tvf source.tar
 ```
 
-- Extraire les fichiers correspondant au motif :
+- Extrait les fichiers correspondant au motif :
 
 ```bash
 tar xf source.tar --wildcards "*.html"
@@ -55,6 +55,7 @@ Liste des modifications apportées à cette documentation
 
 Auteur | Description | Format de la date ISO 8601 | Lien vers GitHub
 ------|-----|-----|-----
+[Mia Combeau](mailto:52008667+mcombeau@users.noreply.github.com) | tar: fix tense in French translation (#8433) | 2022-09-02T04:28:50 | [77cc5263d42b](https://github.com/tldr-pages/tldr/commit/77cc5263d42b75f9e234af0385a3fdbaea8765dc)
 [marchersimon](mailto:50295997+marchersimon@users.noreply.github.com) | Replace non-breaking space with regular space in French pages (#6842) | 2021-10-07T09:37:39 | [d63065b882e7](https://github.com/tldr-pages/tldr/commit/d63065b882e77c3d3361e76cfa7f28bf5415832e)
 [Robby O'Connor](mailto:rob@oconnor.ninja) | tar: fix bzip to bzip2 in command description (#5264) | 2021-02-13T04:53:30 | [5cd65c2850e0](https://github.com/tldr-pages/tldr/commit/5cd65c2850e0f3186af032337f596dbb7c5be79a)
 [bl-ue](mailto:54780737+bl-ue@users.noreply.github.com) | multiple pages: fix French colon punctuation (#5152) | 2021-01-30T18:03:18 | [5f1ef5bee7db](https://github.com/tldr-pages/tldr/commit/5f1ef5bee7dba1b2749d25e4d0a7be22c89cf8b4)

@@ -1,6 +1,6 @@
 ---
-author: ['Seth Woodworth', 'Artem Szubowicz', 'pxgamer', 'Ryan Olson', 'Marco Bonelli', 'marchersimon', 'Ruben Vereecken']
-date: 1623709650
+author: ['Cairn', 'pxgamer', 'marchersimon', 'Seth Woodworth', 'Marco Bonelli', 'Ruben Vereecken', 'Ryan Olson', 'Artem Szubowicz']
+date: 1662085336
 title: "emacs"
 description: "emacs, The extensible, customizable, self-documenting, real-time display editor."
 categories: "common"
@@ -19,6 +19,12 @@ emacs path/to/file
 
 ```bash
 emacs +line_number path/to/file
+```
+
+- Run an Emacs Lisp file as a script:
+
+```bash
+emacs --script path/to/file.el
 ```
 
 - Start Emacs in console mode (without an X window):
@@ -55,6 +61,7 @@ List of changes to this documentation
 
 Author | Description | ISO 8601 Date | GitHub link
 ------|-----|-----|-----
+[Cairn](mailto:cairn@pm.me) | emacs: add `--script` example (#8440) | 2022-09-02T04:22:16 | [f115f4124c70](https://github.com/tldr-pages/tldr/commit/f115f4124c708fe0cbccf6ec54d3e9110727d2c7)
 [marchersimon](mailto:50295997+marchersimon@users.noreply.github.com) | emacs, emacsclient: refresh (#6096) | 2021-06-15T00:27:30 | [68023b7eb89b](https://github.com/tldr-pages/tldr/commit/68023b7eb89b7a2897d19fb6ecad7fe6a1e96eb9)
 [Ryan Olson](mailto:ryanolsonx@gmail.com) | emacs: open file at line number (#3780) | 2020-01-23T15:01:39 | [d17785495ddb](https://github.com/tldr-pages/tldr/commit/d17785495ddb25c8004c2129520a12311bb6682d)
 [Marco Bonelli](mailto:mebeim@users.noreply.github.com) | emacs: clarify examples. (#3212) | 2019-07-31T05:25:48 | [c160121bdcea](https://github.com/tldr-pages/tldr/commit/c160121bdcea303dbaf956f1c7058d21926454b1)

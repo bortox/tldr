@@ -1,6 +1,6 @@
 ---
-author: ['William Belle', 'Dario Vladović', 'David Bariod', 'Nicolas Kosinski', 'Axel Navarro', 'julien', 'bl-ue', 'marchersimon']
-date: 1633592259
+author: ['Mia Combeau', 'marchersimon', 'David Bariod', 'Dario Vladović', 'William Belle', 'Axel Navarro', 'bl-ue', 'julien', 'Nicolas Kosinski']
+date: 1662084300
 title: "ls"
 description: "ls, Liste le contenu d'un répertoire."
 categories: "common"
@@ -17,6 +17,12 @@ ls -1
 
 ```bash
 ls -a
+```
+
+- Liste tous les fichiers, avec les noms de répertoires suivis d'un `/` :
+
+```bash
+ls -F
 ```
 
 - Liste tous les fichiers avec un format détaillé (permissions, propriétaire, taille et date de modification) :
@@ -42,11 +48,18 @@ ls -lS
 ```bash
 ls -ltr
 ```
+
+- Liste uniquement les répertoires :
+
+```bash
+ls -d */
+```
 Liste des modifications apportées à cette documentation
 
 
 Auteur | Description | Format de la date ISO 8601 | Lien vers GitHub
 ------|-----|-----|-----
+[Mia Combeau](mailto:52008667+mcombeau@users.noreply.github.com) | ls: update French translation (#8437) | 2022-09-02T04:05:00 | [6c94f782dab6](https://github.com/tldr-pages/tldr/commit/6c94f782dab6e0a27570f2e3d1a052bbf4dc44e7)
 [marchersimon](mailto:50295997+marchersimon@users.noreply.github.com) | Replace non-breaking space with regular space in French pages (#6842) | 2021-10-07T09:37:39 | [d63065b882e7](https://github.com/tldr-pages/tldr/commit/d63065b882e77c3d3361e76cfa7f28bf5415832e)
 [Nicolas Kosinski](mailto:nicokosi@yahoo.com) | multiple pages: fix typos in French translation (#5841) | 2021-05-01T18:49:31 | [6467b39f66b4](https://github.com/tldr-pages/tldr/commit/6467b39f66b40110a64d13af20f1a7ab27380fa9)
 [Dario Vladović](mailto:d.vladimyr@gmail.com) | coreutils*: use short more info links (#5658) | 2021-04-01T17:54:26 | [4830093903f6](https://github.com/tldr-pages/tldr/commit/4830093903f66ccf3ebbc2ecf477286e45edac59)
