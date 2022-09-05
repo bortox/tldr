@@ -1,6 +1,6 @@
 ---
-author: ['bl-ue', 'Dario Vladović', 'Ivor Benderavage', 'marchersimon']
-date: 1633592259
+author: ['marchersimon', 'Mia Combeau', 'Ivor Benderavage', 'Dario Vladović', 'bl-ue']
+date: 1662261973
 title: "mkdir"
 description: "mkdir, Crée un répertoire."
 categories: "common"
@@ -13,6 +13,12 @@ categories: "common"
 mkdir répertoire
 ```
 
+- Crée plusieurs répertoires dans le répertoire actuel :
+
+```bash
+mkdir répertoire_1 répertoire_2 ...
+```
+
 - Crée des répertoires récursivement (utile pour créer des répertoires imbriqués) :
 
 ```bash
@@ -23,6 +29,7 @@ Liste des modifications apportées à cette documentation
 
 Auteur | Description | Format de la date ISO 8601 | Lien vers GitHub
 ------|-----|-----|-----
+[Mia Combeau](mailto:52008667+mcombeau@users.noreply.github.com) | mkdir: update French translation (#8443) | 2022-09-04T05:26:13 | [6c39ac18a474](https://github.com/tldr-pages/tldr/commit/6c39ac18a474892197ea8e200d4f8ea7ddfd1b4e)
 [marchersimon](mailto:50295997+marchersimon@users.noreply.github.com) | Replace non-breaking space with regular space in French pages (#6842) | 2021-10-07T09:37:39 | [d63065b882e7](https://github.com/tldr-pages/tldr/commit/d63065b882e77c3d3361e76cfa7f28bf5415832e)
 [Dario Vladović](mailto:d.vladimyr@gmail.com) | coreutils*: use short more info links (#5658) | 2021-04-01T17:54:26 | [4830093903f6](https://github.com/tldr-pages/tldr/commit/4830093903f66ccf3ebbc2ecf477286e45edac59)
 [marchersimon](mailto:50295997+marchersimon@users.noreply.github.com) | mkdir: change more information link (#5549) | 2021-03-29T22:25:45 | [ce1b94a08aef](https://github.com/tldr-pages/tldr/commit/ce1b94a08aefa8ed865371c155f0e2a7fb622d6c)
