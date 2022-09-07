@@ -1,6 +1,6 @@
 ---
-author: ['kai']
-date: 1658196919
+author: ['Mia Combeau', 'kai']
+date: 1662474547
 title: "man"
 description: "man, Format and display manual pages."
 categories: "linux"
@@ -40,7 +40,7 @@ man --where command
 - Display the man page using a specific locale:
 
 ```bash
-man command --locale=locale
+man --locale=locale command
 ```
 
 - Search for manpages containing a search string:
@@ -53,5 +53,6 @@ List of changes to this documentation
 
 Author | Description | ISO 8601 Date | GitHub link
 ------|-----|-----|-----
+[Mia Combeau](mailto:52008667+mcombeau@users.noreply.github.com) | man: fix locale option example (#8465) | 2022-09-06T16:29:07 | [f855dd1b1f03](https://github.com/tldr-pages/tldr/commit/f855dd1b1f035d52551468d7de10603bae786ad2)
 [kai](mailto:gmdezreal@gmail.com) | man: use long options in examples (#8216) * man: use long options in examples * man: move long options to /linux/ | 2022-07-19T04:15:19 | [31325d9bd8bd](https://github.com/tldr-pages/tldr/commit/31325d9bd8bd0fbed7cb9d4d2cde6546d8d8f8ab)
 
