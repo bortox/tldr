@@ -1,6 +1,6 @@
 ---
-author: ['James', 'Schneider', 'Nicolas Kosinski', 'Daniel Campoverde [alx741]', 'bjorn3', 'Marco Bonelli', 'marchersimon']
-date: 1631521281
+author: ['Daniel Campoverde [alx741]', 'James', 'blakehawkins', 'bjorn3', 'marchersimon', 'Nicolas Kosinski', 'Schneider', 'Marco Bonelli']
+date: 1662592319
 title: "cargo"
 description: "cargo, Manage Rust projects and their module dependencies (crates)."
 categories: "common"
@@ -45,6 +45,12 @@ cargo new path/to/directory --bin|lib
 cargo build
 ```
 
+- Build the rust project in the current directory using the nightly compiler:
+
+```bash
+cargo +nightly build
+```
+
 - Build using a specific number of threads (default is the number of CPU cores):
 
 ```bash
@@ -55,6 +61,7 @@ List of changes to this documentation
 
 Author | Description | ISO 8601 Date | GitHub link
 ------|-----|-----|-----
+[blakehawkins](mailto:blakehawkins@users.noreply.github.com) | cargo: add +nightly example (#8475) The `+nightly` syntax is somewhat unusual and easy to forget. It composes nicely with many other [...] | 2022-09-08T01:11:59 | [e5521801d646](https://github.com/tldr-pages/tldr/commit/e5521801d6465f09c9e99fba198619349851ecbf)
 [marchersimon](mailto:50295997+marchersimon@users.noreply.github.com) | mention subcommands in every base page (#6383) | 2021-09-13T10:21:21 | [bd677b8b4826](https://github.com/tldr-pages/tldr/commit/bd677b8b48260e301fb99fea794f4dc1458d1562)
 [Nicolas Kosinski](mailto:nicokosi@users.noreply.github.com) | cargo: use long options everywhere (#6502) | 2021-09-11T09:53:04 | [d3460ef8f103](https://github.com/tldr-pages/tldr/commit/d3460ef8f103a660f6f6765265b838b919342f1a)
 [bjorn3](mailto:bjorn3@users.noreply.github.com) | cargo: Reword cargo build -j example | 2019-10-27T15:49:59 | [1eba2d951394](https://github.com/tldr-pages/tldr/commit/1eba2d9513941f12719ef517ea4ee102fd8608ba)
